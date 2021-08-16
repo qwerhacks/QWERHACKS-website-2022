@@ -3,7 +3,6 @@ import React from "react";
 function Faq(props) {
 
   return (
-
     <div class="faq">
       <h1>FAQ</h1>
 
@@ -85,7 +84,6 @@ function Faq(props) {
         </div>
       </div>
 
-
       <div class="qanda">
         <div class="question">
           how do i attend workshops?
@@ -131,8 +129,6 @@ function Faq(props) {
           vibeeeee with us. we’ll be having our third identity specific mentorship group meeting for those participating, and fun low commitment activities for those who aren’t!
         </div>
       </div>
-
-
     </div>
   );
 

@@ -1,7 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,100;0,300;0,600;1,300;1,600&display=swap");
 
+$palette-purple: #b777b3;
+$palette-peach: #f8ab9e;
+$palette-yellow: #f8bb5f;
+$palette-indigo: #9c8ec4;
+$palette-blue: #87c1ea;
+$palette-green: #8acb97;
+
+$bg-purple: #f1d0e5;
+$text-purple: #854783;
+
+$bg-peach: #ffdbdb;
+$text-peach: #ae3328;
+
+$bg-yellow: #fde9d3;
+$text-yellow: #a84f00;
+
+$bg-indigo: #dcd7ea;
+$text-indigo: #65539d;
+
+$bg-blue: #cbe4f6;
+$text-blue: #1c679c;
+
+$bg-green: #dcefdf;
+$text-green: #327544;
+
 html {
   height: 100%;
+}
+
+@font-face {
+  font-family: "kenokylight";
+  src: url("fonts/kenokylight-3zezl-webfont.woff2") format("woff2"),
+    url("fonts/kenokylight-3zezl-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next Demi";
+  src: url("fonts/AvenirNext-DemiBold.woff2") format("woff2"), url("fonts/AvenirNext-DemiBold.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
 }
 
 body {
@@ -9,33 +50,60 @@ body {
   // background-size: 100% 1600px;
   // background-repeat: no-repeat;
   // background-attachment: fixed;
-  font-family: "Be Vietnam", sans-serif;
-  font-weight: 300;
+  background-color: $bg-blue;
+  font-family: "Avenir Next Demi", sans-serif;
   margin: 0px 0px;
   padding: 0px;
+}
+
+// p {
+//   font-family: "Avenir Next Demi", sans-serif;
+//   transform: skew(-6deg);
+// }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "kenokylight", sans-serif;
 }
 
 .content {
   height: 100%;
   width: 100%;
+  // background-color: $bg-peach;
   // display: grid;
   // grid-template-rows: 100px auto;
 }
 
-
 /////////////// NAV /////////////////////
-.nav-button {
+.nav {
+  width: 100%;
   text-align: center;
-  width: 125px;
-  height: 4em;
-  border-radius: 50px;
-  font-size: 15px;
-  border: 1px solid transparent;
-  outline: none;
-  background-color: transparent;
-  margin-bottom: 2em;
-  font-family: "Be Vietnam", sans-serif;
-  font-weight: 600;
+
+  &-button {
+    text-align: center;
+    width: 125px;
+    height: 4em;
+    border-radius: 50px;
+    font-size: 15px;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: transparent;
+    margin-bottom: 2em;
+    font-family: "Be Vietnam", sans-serif;
+    font-weight: 600;
+  }
+
+  &-button:hover {
+    border-color: black;
+  }
+
+  &-buttons {
+    padding: 10px;
+  }
 }
 
 /* makes the arrow on navbar when page is active */
@@ -50,18 +118,8 @@ body {
   background-position-y: center;
 } */
 
-.nav-button:hover {
-  border-color: black;
-}
-
-.nav-buttons {
-  padding: 10px;
-  // padding-top: 25px;
-  // padding-left: 25px;
-}
-
-h1,
-.main-logo {
+#home-title {
+  text-align: center;
   font-weight: 600;
   font-size: 60px;
   padding-top: 40px;
@@ -132,17 +190,12 @@ h1 .subtitle {
 }
 
 .footer {
+  // background-color: $bg-blue;
   display: flex;
   flex-direction: row;
   padding-left: 50px;
   padding-top: 170px;
   padding-bottom: 30px;
-}
-
-.team {
-  padding-right: 50px;
-  padding-top: 20px;
-  font-size: 12px;
 }
 
 .footer_logo {
@@ -155,6 +208,10 @@ h1 .subtitle {
   /* text-align: center; */
 }
 
+#team-header {
+  margin-bottom: 10px;
+}
+
 .names {
   display: flex;
   flex-direction: row;
@@ -162,10 +219,6 @@ h1 .subtitle {
 
 .name-col {
   padding-right: 70px;
-}
-
-.footer-team {
-  font-weight: 600;
 }
 
 .social_media {
@@ -282,25 +335,23 @@ h1 .subtitle {
 }
 
 .check {
-  /* margin-left: -35px;   */
-
   padding-top: 20px;
 }
 
-.name-col {
-  text-decoration: none;
-  color: none;
-}
+.hamburger {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  display: grid;
+  height: 30px;
 
-.header {
-  display: none;
-}
-
-.line {
-  width: 40px;
-  height: 4px;
-  background-color: black;
-  margin: 3px 0;
+  &-line {
+    width: 35px;
+    height: 4px;
+    background-color: black;
+    margin: 3px 0;
+    border-radius: 20%;
+  }
 }
 
 .other {
@@ -314,27 +365,42 @@ h1 .subtitle {
 .mlh-banner {
   position: absolute;
   top: 0px;
-  right: 5%;
-  width: 10%;
+  right: 15px;
+  width: 5vw;
+}
+
+#mobile-header {
+  display: none;
 }
 
 @media screen and (max-width: 992px) {
-  .spons-img {
-    margin-right: 30px;
-    padding-bottom: 20px;
+  #mobile-header {
+    display: block;
+  }
+
+  .mobile-nav {
+    /* background-image: url(./img/holo-back.png); */
+    display: block;
+    z-index: 100;
+    width: 100%;
   }
 
   .desktop-nav {
     display: none;
   }
-  
-  .menu {
-    display: grid;
-    height: 10px;
-    padding-left: 30px;
-    margin-top: 10px;
+
+  .spons-img {
+    margin-right: 30px;
+    padding-bottom: 20px;
   }
 
+  .mobile-title {
+    margin-top: 15px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -345,31 +411,16 @@ h1 .subtitle {
   .desktop-nav {
     display: none;
   }
-  
-  .menu {
-    display: grid;
-    height: 10px;
-    padding-left: 30px;
-    margin-top: 10px;
-  }
-
 }
 
 @media screen and (max-width: 576px) {
   body {
     background-size: 100% 2500px;
-    width: 375px;
+    // width: 375px;
   }
 
   .desktop-nav {
     display: none;
-  }
-
-  .menu {
-    display: grid;
-    height: 10px;
-    padding-left: 30px;
-    margin-top: 10px;
   }
 
   .container {
@@ -405,12 +456,6 @@ h1 .subtitle {
     padding-top: 40px;
   }
 
-  .team {
-    padding-left: 30px;
-    font-size: 10px;
-    text-align: left;
-  }
-
   .names {
     display: flex;
     flex-direction: row;
@@ -439,29 +484,10 @@ h1 .subtitle {
     padding: 7px;
   }
 
-
-  h1 {
-    font-size: 45px;
-    padding-top: 20px;
-  }
-
-  .head {
-    padding-top: 10px;
-    font-size: 20px;
-  }
-
-  .header {
-    display: grid;
-    /* flex-direction: row; */
-    grid-template-columns: 30% 70%;
-    padding-top: 20px;
-  }
-
-  .something {
-    display: flex;
-    font-weight: 600;
-    text-align: center;
-  }
+  // h1 {
+  //   font-size: 45px;
+  //   padding-top: 20px;
+  // }
 
   .sponsors {
     display: block;
@@ -507,12 +533,6 @@ h1 .subtitle {
     margin-right: 0px;
   }
 
-  .mobile-nav {
-    /* background-image: url(./img/holo-back.png); */
-    z-index: 100;
-    width: 300%;
-  }
-
   .nav-buttons {
     padding-top: 20px;
     margin-left: 20px;
@@ -526,5 +546,4 @@ h1 .subtitle {
     width: 100%;
     margin-left: 0px;
   }
-
 }
