@@ -10,7 +10,7 @@ function Resources(props) {
                <a class="code-of-conduct" href="https://qwer-hacks-2021.devpost.com/project-gallery" target="_blank" rel="noopener noreferrer" >project gallery!!!!</a>
             </div>
             <div class="answer">
-               <a class="code-of-conduct" href="https://qwer-hacks-2021.devpost.com/project-gallery" target="_blank" rel="noopener noreferrer" >check out all of your project submissions (and winners!!!) from qwer hacks 2021</a>
+               check out all of your project submissions (and winners!!!) from qwer hacks 2021
             </div>
          </div>
 
@@ -20,7 +20,7 @@ function Resources(props) {
                <a class="code-of-conduct" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank" rel="noopener noreferrer" >mlh code of conduct</a>
             </div>
             <div class="answer">
-               <a class="code-of-conduct" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank" rel="noopener noreferrer" >please read through this before participating in our event!</a>
+               please read through this before participating in our event!
             </div>
          </div>
 
@@ -30,11 +30,9 @@ function Resources(props) {
                <a class="code-of-conduct" href="https://drive.google.com/file/d/15draOrpYUXQrvzcShnqW3ziShfaRQSP-/view?usp=sharing" target="_blank" rel="noopener noreferrer" >how to safely attend our hackathon</a>
             </div>
             <div class="answer">
-               <a class="code-of-conduct" href="https://drive.google.com/file/d/15draOrpYUXQrvzcShnqW3ziShfaRQSP-/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
-                  we affirm our commitment to making participation in this hackathon discreet, and we will work with participants every
-                  step of the way to ensure their comfort and safety. in the following guide, we’re going to be offering our own tips,
-                  tricks, and advice as to how you can attend this hackathon safely!
-               </a>
+               we affirm our commitment to making participation in this hackathon discreet, and we will work with participants every
+               step of the way to ensure their comfort and safety. in the following guide, we’re going to be offering our own tips,
+               tricks, and advice as to how you can attend this hackathon safely!
             </div>
          </div>
 
@@ -44,13 +42,9 @@ function Resources(props) {
                <a class="code-of-conduct" href="https://drive.google.com/file/d/1QV9o3asHa10RkXd8lsvC3fkjKIG7kq-z/view?usp=sharing" target="_blank" rel="noopener noreferrer" >how to attend a virtual hackathon</a>
             </div>
             <div class="answer">
-               <a class="code-of-conduct" href="https://drive.google.com/file/d/1QV9o3asHa10RkXd8lsvC3fkjKIG7kq-z/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
-                  Are you scared of attending your first hackathon? Are you a hackathon veteran who’s never attended a virtual one before? Then this guide is for you!
-               </a>
+               Are you scared of attending your first hackathon? Are you a hackathon veteran who’s never attended a virtual one before? Then this guide is for you!
             </div>
          </div>
-
-         {/* judging criteria */}
 
          {/* to survive on this shore */}
          <div class="qanda">
@@ -58,9 +52,7 @@ function Resources(props) {
                <a class="code-of-conduct" href="https://www.tosurviveonthisshore.com/" target="_blank" rel="noopener noreferrer" >to survive on this shore</a>
             </div>
             <div class="answer">
-               <a class="code-of-conduct" href="https://www.tosurviveonthisshore.com/" target="_blank" rel="noopener noreferrer" >
-                  photographs and interviews with transgender and gender nonconforming older adults: a project by jess t. dugan and vanessa fabbre
-               </a>
+               photographs and interviews with transgender and gender nonconforming older adults: a project by jess t. dugan and vanessa fabbre
             </div>
          </div>
 
@@ -70,9 +62,7 @@ function Resources(props) {
                <a class="code-of-conduct" href="https://hbr.org/2020/03/creating-a-trans-inclusive-workplace" target="_blank" rel="noopener noreferrer" >creating a trans inclusive workspace</a>
             </div>
             <div class="answer">
-               <a class="code-of-conduct" href="https://hbr.org/2020/03/creating-a-trans-inclusive-workplace" target="_blank" rel="noopener noreferrer" >
-                  only when people feel totally authentic and connected with their organizations can they achieve their full potential at work!
-               </a>
+               only when people feel totally authentic and connected with their organizations can they achieve their full potential at work!
             </div>
          </div>
 
@@ -82,9 +72,7 @@ function Resources(props) {
                <a class="code-of-conduct" href="https://www.youtube.com/watch?v=sGQy0r_icWc" target="_blank" rel="noopener noreferrer" >te reo māori speech recognition: a story of community, trust, and sovereignty</a>
             </div>
             <div class="answer">
-               <a class="code-of-conduct" href="https://www.youtube.com/watch?v=sGQy0r_icWc" target="_blank" rel="noopener noreferrer" >
-                  keoni mahelona discusses the collection of 300+ hours of labeled speech corpus which enabled the creation of an automatic speech recognizer using mozilla’s deepspeech. they now use it to accelerate the transcription of native speaker archives, using tech to create systems that preserve indigenous languages.
-               </a>
+               keoni mahelona discusses the collection of 300+ hours of labeled speech corpus which enabled the creation of an automatic speech recognizer using mozilla’s deepspeech. they now use it to accelerate the transcription of native speaker archives, using tech to create systems that preserve indigenous languages.
             </div>
          </div>
 
@@ -94,9 +82,7 @@ function Resources(props) {
                <a class="code-of-conduct" href="https://www.whose.land/en/" target="_blank" rel="noopener noreferrer" >whose land</a>
             </div>
             <div class="answer">
-               <a class="code-of-conduct" href="https://www.whose.land/en/" target="_blank" rel="noopener noreferrer" >
-                  since we're all going to be in different places for qwer hacks this year, take a moment to figure out and acknowledge the land you're on:)
-               </a>
+               since we're all going to be in different places for qwer hacks this year, take a moment to figure out and acknowledge the land you're on:)
             </div>
          </div>
 
@@ -106,18 +92,10 @@ function Resources(props) {
                <a class="code-of-conduct" href="https://www.youtube.com/watch?v=8HX0HGa-pok" target="blank">them | queer vocab in asl</a>
             </div>
             <div class="answer">
-               <a class="code-of-conduct" href="https://www.youtube.com/watch?v=8HX0HGa-pok" target="blank">
-                  in this video, nyle dimarco and chella man walk through the essentials of queer vocabulary in american sign language and the variety of ways to communicate!
-               </a>
+               in this video, nyle dimarco and chella man walk through the essentials of queer vocabulary in american sign language and the variety of ways to communicate!
             </div>
          </div>
-
-
-
       </div>
-
-
-
    );
 
 }

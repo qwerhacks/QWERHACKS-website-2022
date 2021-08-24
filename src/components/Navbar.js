@@ -8,7 +8,7 @@ function Navbar() {
       <div class="nav">
          <div class="nav-buttons">
             <NavLink exact className="text-link" to="/"><button type="button" class="nav-button nav-hover-purple">home</button></NavLink>
-            <NavLink className="text-link" to="/apply"><button type="button" class="nav-button nav-hover-peach">apply!</button></NavLink>
+            <NavLink className="text-link" to="/apply"><button type="button" class="nav-button nav-hover-peach">apply</button></NavLink>
             <NavLink className="text-link" to="/faq"><button type="button" class="nav-button nav-hover-yellow">faq</button></NavLink>
             <NavLink className="text-link" to="/schedule"><button type="button" class="nav-button nav-hover-indigo">schedule</button></NavLink>
             <NavLink className="text-link" to="/sponsors"><button type="button" class="nav-button nav-hover-blue">sponsors</button></NavLink>

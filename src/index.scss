@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,100;0,300;0,600;1,300;1,600&display=swap");
-
 $palette-purple: #b777b3;
 $palette-peach: #f8ab9e;
 $palette-yellow: #f8bb5f;
@@ -46,16 +44,11 @@ html {
 }
 
 body {
-  background-image: url(./img/long-gradient.png) ;
-  background-size: 100% 1600px;
-  background-repeat: no-repeat;
-  // background-attachment: fixed;
-
-  background: url(./img/long-gradient.png) no-repeat center center;
-  // -webkit-background-size: cover;
-  // -moz-background-size: cover;
-  // -o-background-size: cover;
-  // background-size: cover;
+  background: url(./img/gradient-extra-long.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: "Avenir Next Demi", sans-serif;
   color: white;
   margin: 0px 0px;
@@ -69,7 +62,7 @@ h4,
 h5,
 h6 {
   font-family: "kenokylight", sans-serif;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
 }
@@ -85,6 +78,8 @@ h6 {
   border: 3px solid rgba(255, 255, 255, 0.4);
   border-radius: 30px;
   max-width: 700px;
+  line-height: 1.5em;
+  font-size: small;
 }
 
 .purple-scheme {
@@ -148,15 +143,18 @@ h6 {
 
   &-button {
     text-align: center;
-    padding: 2em;
+    padding: 1.25em;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 18px;
     border: 3px solid transparent;
     outline: none;
     background-color: transparent;
-    margin: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
     font-family: "Avenir Next Demi", sans-serif;
-    // color: white;
+    color: white;
   }
 
   &-hover-purple:hover,
@@ -212,7 +210,9 @@ h6 {
 }
 
 .home-info {
-  line-height: 1.5em;
+  line-height: 1.8em;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .text-link {
@@ -239,25 +239,31 @@ h6 {
   max-width: 800px;
 }
 
-.code-of-conduct {
-  text-decoration: none;
-  color: black;
-}
-
 .tracks {
+  max-width: 800px;
   padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
+  &-section {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+  }
+
+  &-image {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
 }
 
-.box {
-  display: flex;
-  flex-direction: column;
-  padding-right: 30px;
-  padding-bottom: 30px;
-}
-
+////////////////////// FOOTER ///////////////////////////
 .footer {
   padding-top: 170px;
   padding-bottom: 30px;
@@ -265,12 +271,7 @@ h6 {
   padding-right: 6%;
   display: flex;
   flex-direction: row;
-  background-color: lightblue;
-
-  &-card {
-    display: flex;
-    flex-direction: row;
-  }
+  // background-color: lightblue;
 
   &-section {
     width: 40%;
@@ -308,6 +309,10 @@ h6 {
     font-size: x-small;
     padding: 0.25em;
   }
+}
+
+.team {
+  margin-top: 2em;
 }
 
 .names {
@@ -548,7 +553,7 @@ h6 {
     margin-right: auto;
   }
 
-  .box {
+  .tracks-section {
     padding-right: 0;
     width: 140px;
   }
@@ -568,7 +573,7 @@ h6 {
     flex-direction: column;
   }
 
-  .t {
+  .tracks-image {
     width: 90%;
   }
 

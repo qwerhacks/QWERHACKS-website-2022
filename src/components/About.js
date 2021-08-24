@@ -5,7 +5,7 @@ function About() {
       <div className="About" class="card yellow-scheme">
          <h1><div>About</div></h1>
          <div class="team">
-            <h2 id="team-header">team:</h2>
+            <h2>team:</h2>
             <div class="names">
                <div class="name-col">
                   <div class="n"> <b>christine</b> kim </div>
