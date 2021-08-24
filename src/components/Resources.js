@@ -3,7 +3,7 @@ import React from "react";
 function Resources(props) {
 
    return (
-      <div>
+      <div class="card purple-scheme">
          <h1>Resources</h1>
          <div class="qanda">
             <div class="question">

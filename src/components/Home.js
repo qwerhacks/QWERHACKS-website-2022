@@ -3,43 +3,42 @@ import React from "react";
 function Home() {
 
     return (
-        <div>
-            <h1 id="home-title">QWER Hacks 
-            {/* <div class="subtitle">// virtual - january 23-24, 2021</div> */}
-            </h1>
-            <div class="home_info">
-                <p>
-                    {/* <b>#include &lt;building a better future&gt;</b> */}
-                </p>
-                <p>
-                    {/* we're back and ready to hack!! qwer hacks at ucla is major league hacking's first LGBTQIA+ hackathon and aims to
-                    increase the visibility of and celebrate the queer and trans community in STEM, as well as engage and
-                    bring together queer individuals and allies through empowering tech talks, technical and
-                    community building workshops, and the development of innovative products meant to help
-                    underrepresented groups! */}
-                </p>
-                <p>
-                    {/* this year, in a space that celebrates identity, intersectionality, and community, we'd like you to create a future
-                    you want to see. we could live in a world where Black trans lives not only matter, but thrive, non-binary
-                    individuals have access to inclusive and respectful healthcare, public policies work to make life easier
-                    for marginalized groups, our education system celebrates and uplifts underrepresented voices, and our diverse
-                    identities are reflected both on our screens and behind the scenes. */}
+        <div >
+            {/* <div id="home-title" class="card purple-scheme"> */}
+            <div id="home-title" >
+                <h1>QWER Hacks</h1>
+                january 21-23, 2022
+                {/* <img src={require("../img/qh_logo.png")} alt="website logo" class="footer-logo" width="400px" /> */}
 
-                </p>
+            </div>
+            <div class="home-info card peach-scheme">
+                <p>we're back and ready to hack!! qwer hacks @ ucla is major league hacking's first
+                    LGBTQIA+ hackathon that celebrates the queer and trans community in STEM. we bring
+                    together queer individuals and allies through tech talks, technical and community-building
+                    workshops, and development of innovative projects to help underrepresented groups!</p>
+                <p>presenting our theme for this year: embracing identity through self empowerment.
+                    through our four tracks listed below, you’ll find ways to meld your unique perspective
+                    and experiences into technologies that highlight your individuality and improve the
+                    world around you.</p>
             </div>
             <div class="tracks">
-                {/* <div class="box">
-                    <img src={require("../img/track1.png")} alt="healthcare track" class="t" width="225px" />
-                </div>
                 <div class="box">
-                    <img src={require("../img/track2.png")} alt="healthcare track" class="t" width="225px" />
+                    <div class="box card yellow-scheme">
+                        <img src={require("../img/c&c_circle.png")} alt="healthcare track" class="t" width="225px" />
+                        <div>
+                            seeking education is one way to learn and develop. create a hack to share what helps you grow and motivate others!
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src={require("../img/h&w_circle.png")} alt="healthcare track" class="t" width="225px" />
+                    </div>
+                    <div class="box">
+                        <img src={require("../img/l&g_circle.png")} alt="healthcare track" class="t" width="225px" />
+                    </div>
+                    <div class="box">
+                        <img src={require("../img/a&e_circle.png")} alt="healthcare track" class="t" width="225px" />
+                    </div>
                 </div>
-                <div class="box">
-                    <img src={require("../img/track3.png")} alt="healthcare track" class="t" width="225px" />
-                </div>
-                <div class="box">
-                    <img src={require("../img/track4-updated.png")} alt="healthcare track" class="t" width="225px" />
-                </div> */}
             </div>
         </div>
     );

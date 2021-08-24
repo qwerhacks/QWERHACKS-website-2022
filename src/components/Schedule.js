@@ -3,7 +3,7 @@ import React from "react";
    function Schedule(props) {
 
         return (
-          <div class="schedule">
+          <div class="schedule card indigo-scheme">
             <img src={require("../img/mlh-trust-badge-2021-white.png")} alt="mlh badge" class="mlh-banner" width="120px"/> 
             <h1><div>Schedule</div> <div class="subtitle"></div></h1>
             {/* <ul>

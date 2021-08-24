@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
    return (
-      <div className="About">
+      <div className="About" class="card yellow-scheme">
          <h1><div>About</div></h1>
          <div class="team">
             <h2 id="team-header">team:</h2>

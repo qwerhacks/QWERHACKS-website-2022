@@ -7,22 +7,22 @@ $palette-indigo: #9c8ec4;
 $palette-blue: #87c1ea;
 $palette-green: #8acb97;
 
-$bg-purple: #f1d0e5;
+$bg-purple: rgba(241, 208, 229, 0.6);
 $text-purple: #854783;
 
-$bg-peach: #ffdbdb;
+$bg-peach: rgba(255, 219, 219, 0.6);
 $text-peach: #ae3328;
 
-$bg-yellow: #fde9d3;
+$bg-yellow: rgba(253, 233, 211, 0.6);
 $text-yellow: #a84f00;
 
-$bg-indigo: #dcd7ea;
+$bg-indigo: rgba(220, 215, 234, 0.6);
 $text-indigo: #65539d;
 
-$bg-blue: #cbe4f6;
+$bg-blue: rgba(203, 228, 246, 0.6);
 $text-blue: #1c679c;
 
-$bg-green: #dcefdf;
+$bg-green: rgba(220, 239, 223, 0.6);
 $text-green: #327544;
 
 html {
@@ -46,20 +46,21 @@ html {
 }
 
 body {
-  // background-image: url(./img/holo-back.png);
-  // background-size: 100% 1600px;
-  // background-repeat: no-repeat;
+  background-image: url(./img/long-gradient.png) ;
+  background-size: 100% 1600px;
+  background-repeat: no-repeat;
   // background-attachment: fixed;
-  background-color: $bg-blue;
+
+  background: url(./img/long-gradient.png) no-repeat center center;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
   font-family: "Avenir Next Demi", sans-serif;
+  color: white;
   margin: 0px 0px;
   padding: 0px;
 }
-
-// p {
-//   font-family: "Avenir Next Demi", sans-serif;
-//   transform: skew(-6deg);
-// }
 
 h1,
 h2,
@@ -68,14 +69,76 @@ h4,
 h5,
 h6 {
   font-family: "kenokylight", sans-serif;
+  letter-spacing: 4px;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 .content {
   height: 100%;
   width: 100%;
-  // background-color: $bg-peach;
-  // display: grid;
-  // grid-template-rows: 100px auto;
+}
+
+.card {
+  padding: 2em;
+  margin: 0.5em;
+  border: 3px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  max-width: 700px;
+}
+
+.purple-scheme {
+  background-color: $bg-purple;
+  color: $text-purple;
+  a {
+    color: $text-purple;
+    text-decoration: underline;
+  }
+}
+
+.peach-scheme {
+  background-color: $bg-peach;
+  color: $text-peach;
+  a {
+    color: $text-peach;
+    text-decoration: underline;
+  }
+}
+
+.yellow-scheme {
+  background-color: $bg-yellow;
+  color: $text-yellow;
+  a {
+    color: $text-yellow;
+    text-decoration: underline;
+  }
+}
+
+.indigo-scheme {
+  background-color: $bg-indigo;
+  color: $text-indigo;
+  a {
+    color: $text-indigo;
+    text-decoration: underline;
+  }
+}
+
+.blue-scheme {
+  background-color: $bg-blue;
+  color: $text-blue;
+  a {
+    color: $text-blue;
+    text-decoration: underline;
+  }
+}
+
+.green-scheme {
+  background-color: $bg-green;
+  color: $text-green;
+  a {
+    color: $text-green;
+    text-decoration: underline;
+  }
 }
 
 /////////////// NAV /////////////////////
@@ -85,55 +148,62 @@ h6 {
 
   &-button {
     text-align: center;
-    width: 125px;
-    height: 4em;
+    padding: 2em;
     border-radius: 50px;
     font-size: 15px;
-    border: 1px solid transparent;
+    border: 3px solid transparent;
     outline: none;
     background-color: transparent;
-    margin-bottom: 2em;
-    font-family: "Be Vietnam", sans-serif;
-    font-weight: 600;
+    margin: 0.5em;
+    font-family: "Avenir Next Demi", sans-serif;
+    // color: white;
   }
 
-  &-button:hover {
-    border-color: black;
+  &-hover-purple:hover,
+  a.active .nav-hover-purple {
+    background-color: $bg-purple;
+    color: $text-purple;
+    border: 3px solid rgba(255, 255, 255, 0.4);
   }
 
-  &-buttons {
-    padding: 10px;
+  &-hover-peach:hover,
+  a.active .nav-hover-peach {
+    background-color: $bg-peach;
+    color: $text-peach;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+  }
+
+  &-hover-yellow:hover,
+  a.active .nav-hover-yellow {
+    background-color: $bg-yellow;
+    color: $text-yellow;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+  }
+
+  &-hover-indigo:hover,
+  a.active .nav-hover-indigo {
+    background-color: $bg-indigo;
+    color: $text-indigo;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+  }
+
+  &-hover-blue:hover,
+  a.active .nav-hover-blue {
+    background-color: $bg-blue;
+    color: $text-blue;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+  }
+
+  &-hover-green:hover,
+  a.active .nav-hover-green {
+    background-color: $bg-green;
+    color: $text-green;
+    border: 3px solid rgba(255, 255, 255, 0.4);
   }
 }
-
-/* makes the arrow on navbar when page is active */
-/* a.active .b {
-  border-color: black;
-  font-style: italic;
-  border: 1px solid black;
-  background-image: url(./img/arrow@2x.png);
-  background-repeat: no-repeat;
-  background-size: 20px;
-  background-position-x: 85%;
-  background-position-y: center;
-} */
 
 #home-title {
   text-align: center;
-  font-weight: 600;
-  font-size: 60px;
-  padding-top: 40px;
-  width: 100%;
-  margin: 0;
-}
-
-h1 .subtitle {
-  font-size: 0.4em;
-  font-weight: 200;
-  bottom: 12px;
-  position: relative;
-  margin-left: 0.2em;
-  padding-top: 0.8em;
 }
 
 .edit {
@@ -141,11 +211,8 @@ h1 .subtitle {
   color: black;
 }
 
-.home_info {
-  padding: 10px 0;
-  font-weight: 300;
-  line-height: 1.8em;
-  max-width: 800px;
+.home-info {
+  line-height: 1.5em;
 }
 
 .text-link {
@@ -163,7 +230,7 @@ h1 .subtitle {
 }
 
 .question {
-  font-weight: 600;
+  font-style: italic;
   padding-bottom: 0.2em;
 }
 
@@ -185,31 +252,62 @@ h1 .subtitle {
 }
 
 .box {
+  display: flex;
+  flex-direction: column;
   padding-right: 30px;
   padding-bottom: 30px;
 }
 
 .footer {
-  // background-color: $bg-blue;
-  display: flex;
-  flex-direction: row;
-  padding-left: 50px;
   padding-top: 170px;
   padding-bottom: 30px;
-}
+  padding-left: 6%;
+  padding-right: 6%;
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
 
-.footer_logo {
-  padding-top: 20px;
-  padding-right: 110px;
-  font-weight: 600;
-  font-size: 20px;
-  padding-left: 20px;
-  width: 120px;
-  /* text-align: center; */
-}
+  &-card {
+    display: flex;
+    flex-direction: row;
+  }
 
-#team-header {
-  margin-bottom: 10px;
+  &-section {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &-logo-social {
+    width: 30%;
+  }
+
+  &-logo {
+    width: 100%;
+  }
+
+  &-social {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &-icon-wrapper {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  &-icon {
+    width: 100%;
+  }
+
+  &-link {
+    text-decoration: underline;
+    font-size: x-small;
+    padding: 0.25em;
+  }
 }
 
 .names {
@@ -218,7 +316,7 @@ h1 .subtitle {
 }
 
 .name-col {
-  padding-right: 70px;
+  padding-right: 3em;
 }
 
 .social_media {
@@ -226,10 +324,6 @@ h1 .subtitle {
   flex-direction: row;
   padding-left: 30px;
   padding-top: 20px;
-}
-
-.icon {
-  padding-right: 20px;
 }
 
 .arrow {
@@ -354,14 +448,6 @@ h1 .subtitle {
   }
 }
 
-.other {
-  text-decoration: underline;
-}
-
-.social_media_mobile {
-  display: none;
-}
-
 .mlh-banner {
   position: absolute;
   top: 0px;
@@ -374,6 +460,10 @@ h1 .subtitle {
 }
 
 @media screen and (max-width: 992px) {
+  body {
+    font-size: small;
+  }
+
   #mobile-header {
     display: block;
   }
@@ -411,27 +501,47 @@ h1 .subtitle {
   .desktop-nav {
     display: none;
   }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 40px;
+
+    &-section {
+      width: 90%;
+    }
+
+    &-logo-social {
+      text-align: center;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &-logo {
+      display: none;
+    }
+  }
 }
 
 @media screen and (max-width: 576px) {
-  body {
-    background-size: 100% 2500px;
-    // width: 375px;
-  }
-
   .desktop-nav {
     display: none;
   }
 
   .container {
     padding-left: 10px;
+    padding-right: 10px;
     width: 100%;
   }
 
-  // .content {
-  //   grid-template-columns: 70% 0px;
-  //   margin-right: 50px;
-  // }
+  .content {
+    grid-template-columns: 70% 0px;
+    margin-right: 50px;
+  }
 
   .tracks {
     margin-left: auto;
@@ -445,15 +555,6 @@ h1 .subtitle {
 
   .home_info {
     font-size: 15px;
-  }
-
-  .footer {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding-right: 0px;
-    padding-left: 10px;
-    padding-top: 40px;
   }
 
   .names {
@@ -471,11 +572,6 @@ h1 .subtitle {
     width: 90%;
   }
 
-  .footer_logo {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .logo {
     display: none;
   }
@@ -483,11 +579,6 @@ h1 .subtitle {
   .other {
     padding: 7px;
   }
-
-  // h1 {
-  //   font-size: 45px;
-  //   padding-top: 20px;
-  // }
 
   .sponsors {
     display: block;
@@ -512,34 +603,8 @@ h1 .subtitle {
     padding-left: 0px;
   }
 
-  .social_media_mobile {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .whoknows {
-    padding-top: 30px;
-    display: flex;
-    align-items: center;
-  }
-
-  .icon {
-    padding-right: 0px;
-    margin-right: 20px;
-  }
-
-  .icon2 {
-    margin-right: 0px;
-  }
-
-  .nav-buttons {
-    padding-top: 20px;
-    margin-left: 20px;
-  }
-
   .nav-button {
-    margin-bottom: 1em;
+    padding: 1em;
   }
 
   .check {

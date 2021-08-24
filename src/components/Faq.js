@@ -3,7 +3,7 @@ import React from "react";
 function Faq(props) {
 
   return (
-    <div class="faq">
+    <div class="card yellow-scheme">
       <h1>FAQ</h1>
 
       <div class="qanda">
@@ -66,25 +66,25 @@ function Faq(props) {
         </div>
       </div>
 
-      <div class="qanda">
+      {/* <div class="qanda">
         <div class="question">
           what is tikkl?
         </div>
         <div class="answer">
           tikkl is a live events platform that we are using to stream qwerhacks events like speeches and workshops.
         </div>
-      </div>
+      </div> */}
 
-      <div class="qanda">
+      {/* <div class="qanda">
         <div class="question">
           how do i attend keynote speeches?
         </div>
         <div class="answer">
           you can watch them live on tikkl!
         </div>
-      </div>
+      </div> */}
 
-      <div class="qanda">
+      {/* <div class="qanda">
         <div class="question">
           how do i attend workshops?
         </div>
@@ -92,43 +92,43 @@ function Faq(props) {
           one of two ways, but both on tikkl! for streamed workshops, you can watch them in the same way you watched the keynote speeches.
           for interactive workshops, a zoom link will be posted on tikkl! when it’s time for the workshop to start, click on the link and you can hop right in.
         </div>
-      </div>
+      </div> */}
 
-      <div class="qanda">
+      {/* <div class="qanda">
         <div class="question">
           how do i talk to my team?
         </div>
         <div class="answer">
           on our discord! once you register with your team, you’ll have your own dedicated voice and text channel on the server you can use to talk to your teammates!
         </div>
-      </div>
+      </div> */}
 
-      <div class="qanda">
+      {/* <div class="qanda">
         <div class="question">
           how do i talk to mentors?
         </div>
         <div class="answer">
           on our discord! we have multiple channels for mentorship questions. if you’re wondering about which specific mentors are available, you can look at the speakers tab on tikkl.
         </div>
-      </div>
+      </div> */}
 
-      <div class="qanda">
+      {/* <div class="qanda">
         <div class="question">
           how will judging work?
         </div>
         <div class="answer">
           you’ll submit a two minute video of your project on our devpost, and from there the judges will watch and score! there will be no live q&#38;a portion.
         </div>
-      </div>
+      </div> */}
 
-      <div class="qanda">
+      {/* <div class="qanda">
         <div class="question">
           what will i do while i wait for judging to happen?
         </div>
         <div class="answer">
           vibeeeee with us. we’ll be having our third identity specific mentorship group meeting for those participating, and fun low commitment activities for those who aren’t!
         </div>
-      </div>
+      </div> */}
     </div>
   );
 

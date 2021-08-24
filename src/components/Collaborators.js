@@ -3,7 +3,7 @@ import React from "react";
 function Collaborators(props) {
 
    return (
-      <div>
+      <div class="card green-scheme">
          <img src={require("../img/mlh-trust-badge-2021-white.png")} alt="mlh badge" class="mlh-banner" width="120px" />
          <h1>Collaborators
             {/* <div class="subtitle">//<a class="edit" href="https://tinyurl.com/qwer-hacks-collab" target="_blank" rel="noopener noreferrer" > interested in mentoring?</a></div> */}
