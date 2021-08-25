@@ -4,8 +4,8 @@ import React from "react";
 
         return (
           <div class="schedule card indigo-scheme">
-            <img src={require("../img/mlh-trust-badge-2021-white.png")} alt="mlh badge" class="mlh-banner" width="120px"/> 
-            <h1><div>Schedule</div> <div class="subtitle"></div></h1>
+            <h1>Schedule</h1>
+            <div>coming soon...</div>
             {/* <ul>
               <li class="session">
                 <div class="when"><b>10:00-11:00 AM PST, sat 1/23</b></div>

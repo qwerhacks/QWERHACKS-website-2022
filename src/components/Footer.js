@@ -7,10 +7,12 @@ function Footer() {
       <div class="footer">
          <div class="footer-container" >
             <div class="footer-section">
-               <img src={require("../img/qh_logo.png")} alt="website logo" class="footer-logo" />
+               <a href="https://www.qwerhacks.com/">
+                  <img src={require("../img/qh_logo.png")} alt="website logo" class="footer-logo" />
+               </a>
             </div>
             <div class="footer-section">
-            <div>social media:</div>
+               <div>social media:</div>
 
                <div class="footer-social">
                   <div class="footer-icon-wrapper">
