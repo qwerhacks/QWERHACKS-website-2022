@@ -276,29 +276,32 @@ h6 {
     // background-color: rgba(101, 83, 157, 0.8); //indigo text
     border-top: 3px solid rgba(255, 255, 255, 0.6);
     padding-top: 30px;
-    padding-bottom: 40px;
     padding-left: 6%;
     padding-right: 6%;
     display: flex;
     flex-direction: row;
+    color: $text-peach;
+    font-size: small;
   }
   &-section {
     width: 33%;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
   }
   &-logo {
-    max-width: 8em;
+    max-width: 200px;
   }
   &-social {
     width: 100px;
-    display: grid;
-    grid-template-columns: 50px 50px;
-    margin: 0.5em;
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
   }
   &-icon-wrapper {
-    max-width: 50px;
-    margin: 5px;
+    max-width: 35px;
+    min-width: 35px;
+    margin: 6px;
   }
   &-link {
     text-decoration: underline;
@@ -308,7 +311,7 @@ h6 {
     // color: $text-indigo;
     // color: rgba(220, 220, 220, 1);
     display: block;
-    margin: 5px;
+    margin-left: 8px;
   }
 }
 
@@ -503,12 +506,6 @@ h6 {
       max-width: 150px;
     }
   }
-}
-
-@media screen and (max-width: 576px) {
-  .card {
-    font-size: 15px;
-  }
 
   .footer {
     &-container {
@@ -525,9 +522,15 @@ h6 {
       display: flex;
     }
     &-icon-wrapper {
-      // max-width: 100px;
       margin: 5px;
+      min-width: 50px;
     }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    font-size: 15px;
   }
 
   .names {
