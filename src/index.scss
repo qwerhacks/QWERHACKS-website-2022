@@ -23,6 +23,60 @@ $text-blue: #1c679c;
 $bg-green: rgba(220, 239, 223, 0.6);
 $text-green: #327544;
 
+.purple-scheme {
+  background-color: $bg-purple;
+  color: $text-purple;
+  a {
+    color: $text-purple;
+    text-decoration: underline;
+  }
+}
+
+.peach-scheme {
+  background-color: $bg-peach;
+  color: $text-peach;
+  a {
+    color: $text-peach;
+    text-decoration: underline;
+  }
+}
+
+.yellow-scheme {
+  background-color: $bg-yellow;
+  color: $text-yellow;
+  a {
+    color: $text-yellow;
+    text-decoration: underline;
+  }
+}
+
+.indigo-scheme {
+  background-color: $bg-indigo;
+  color: $text-indigo;
+  a {
+    color: $text-indigo;
+    text-decoration: underline;
+  }
+}
+
+.blue-scheme {
+  background-color: $bg-blue;
+  color: $text-blue;
+  a {
+    color: $text-blue;
+    text-decoration: underline;
+  }
+}
+
+.green-scheme {
+  background-color: $bg-green;
+  color: $text-green;
+  a {
+    color: $text-green;
+    text-decoration: underline;
+  }
+}
+
 html {
   height: 100%;
 }
@@ -82,60 +136,6 @@ h6 {
   font-size: small;
 }
 
-.purple-scheme {
-  background-color: $bg-purple;
-  color: $text-purple;
-  a {
-    color: $text-purple;
-    text-decoration: underline;
-  }
-}
-
-.peach-scheme {
-  background-color: $bg-peach;
-  color: $text-peach;
-  a {
-    color: $text-peach;
-    text-decoration: underline;
-  }
-}
-
-.yellow-scheme {
-  background-color: $bg-yellow;
-  color: $text-yellow;
-  a {
-    color: $text-yellow;
-    text-decoration: underline;
-  }
-}
-
-.indigo-scheme {
-  background-color: $bg-indigo;
-  color: $text-indigo;
-  a {
-    color: $text-indigo;
-    text-decoration: underline;
-  }
-}
-
-.blue-scheme {
-  background-color: $bg-blue;
-  color: $text-blue;
-  a {
-    color: $text-blue;
-    text-decoration: underline;
-  }
-}
-
-.green-scheme {
-  background-color: $bg-green;
-  color: $text-green;
-  a {
-    color: $text-green;
-    text-decoration: underline;
-  }
-}
-
 /////////////// NAV /////////////////////
 .nav {
   width: 100%;
@@ -149,7 +149,8 @@ h6 {
     width: 5em;
     border-radius: 50%;
   }
-  &-home-button:hover, a.active .nav-home-button {
+  &-home-button:hover,
+  a.active .nav-home-button {
     background-color: rgba(255, 255, 255, 0.4);
   }
   &-button {
@@ -205,15 +206,15 @@ h6 {
   text-align: center;
 }
 
+.home-info {
+  line-height: 1.8em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .edit {
   text-decoration: underline;
   color: black;
-}
-
-.home-info {
-  line-height: 1.8em;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .text-link {
@@ -240,6 +241,7 @@ h6 {
   max-width: 800px;
 }
 
+///////////////// TRACKS /////////////////
 .tracks {
   max-width: 800px;
   padding-top: 20px;
@@ -248,7 +250,6 @@ h6 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
   &-section {
     margin-right: auto;
     margin-left: auto;
@@ -256,13 +257,11 @@ h6 {
     flex-direction: column;
     max-width: 250px;
   }
-
   &-image {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 1em;
   }
-
   &-blurb {
     margin-top: 0.5em;
   }
@@ -284,12 +283,12 @@ h6 {
     flex-direction: row;
   }
   &-section {
-    width: 30%;
+    width: 33%;
     margin-left: auto;
     margin-right: auto;
   }
   &-logo {
-    width: 50%;
+    max-width: 8em;
   }
   &-social {
     width: 100px;
@@ -298,8 +297,8 @@ h6 {
     margin: 0.5em;
   }
   &-icon-wrapper {
-    max-width: 40px;
-
+    max-width: 50px;
+    margin: 5px;
   }
   &-link {
     text-decoration: underline;
@@ -309,6 +308,7 @@ h6 {
     // color: $text-indigo;
     // color: rgba(220, 220, 220, 1);
     display: block;
+    margin: 5px;
   }
 }
 
@@ -427,27 +427,8 @@ h6 {
   top: 4px;
 }
 
-.apply {
-  padding-top: 20px;
-}
-
 .check {
   padding-top: 20px;
-}
-
-.hamburger {
-  position: absolute;
-  top: 15px;
-  left: 20px;
-  display: grid;
-  height: 30px;
-  &-line {
-    width: 35px;
-    height: 4px;
-    background-color: white;
-    margin: 3px 0;
-    border-radius: 20%;
-  }
 }
 
 .mlh-banner {
@@ -457,24 +438,50 @@ h6 {
   width: 5vw;
 }
 
-#mobile-header {
+.mobile-header {
   display: none;
 }
 
 @media screen and (max-width: 992px) {
   body {
     font-size: small;
+    background-size: auto;
   }
 
-  #mobile-header {
-    display: block;
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
   }
 
-  .mobile-nav {
-    /* background-image: url(./img/holo-back.png); */
-    display: block;
-    z-index: 100;
-    width: 100%;
+  .hamburger {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    display: grid;
+    height: 30px;
+    &-line {
+      width: 35px;
+      height: 4px;
+      background-color: white;
+      margin: 3px 0;
+      border-radius: 20%;
+    }
+  }
+
+  .mobile {
+    &-header {
+      display: block;
+      text-align: center;
+    }
+    &-title {
+      margin-top: 15px;
+    }
+    &-nav {
+      display: block;
+      z-index: 100;
+      width: 100%;
+    }
   }
 
   .desktop-nav {
@@ -485,97 +492,49 @@ h6 {
     margin-right: 30px;
     padding-bottom: 20px;
   }
-
-  .mobile-title {
-    margin-top: 15px;
-    height: 60px;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-  }
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    background-size: auto;
-  }
-
-  .desktop-nav {
-    display: none;
-  }
-
-  .footer {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 40px;
-
+  .tracks {
     &-section {
-      width: 90%;
+      max-width: 400px;
     }
-
-    &-logo-social {
-      text-align: center;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    &-logo {
-      display: none;
+    &-image {
+      max-width: 150px;
     }
   }
 }
 
 @media screen and (max-width: 576px) {
-  .desktop-nav {
-    display: none;
-  }
-
-  .container {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100%;
-  }
-
-  .content {
-    grid-template-columns: 70% 0px;
-    margin-right: 50px;
-  }
-
-  .tracks {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .tracks-section {
-    padding-right: 0;
-    width: 140px;
-  }
-
-  .home_info {
+  .card {
     font-size: 15px;
   }
 
+  .footer {
+    &-container {
+      flex-direction: column;
+    }
+    &-section {
+      width: 90%;
+    }
+    &-logo {
+      display: none;
+    }
+    &-social {
+      width: 60%;
+      display: flex;
+    }
+    &-icon-wrapper {
+      // max-width: 100px;
+      margin: 5px;
+    }
+  }
+
   .names {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .name-col {
-    padding-right: 40px;
-    display: flex;
     flex-direction: column;
-  }
-
-  .tracks-image {
-    width: 90%;
-  }
-
-  .logo {
-    display: none;
+    &-col {
+      padding-right: 40px;
+    }
   }
 
   .other {
@@ -605,8 +564,13 @@ h6 {
     padding-left: 0px;
   }
 
-  .nav-button {
-    padding: 1em;
+  .nav {
+    &-home-button {
+      width: 3.5em;
+    }
+    &-button {
+      padding: 1em;
+    }
   }
 
   .check {

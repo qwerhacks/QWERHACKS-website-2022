@@ -10,14 +10,14 @@ function MobileMenu() {
   }
 
   return (
-    <div id="mobile-header">
+    <div class="mobile-header">
       <div class="hamburger" onClick={handleClick}>
         <div class="hamburger-line"></div>
         <div class="hamburger-line"></div>
         <div class="hamburger-line"></div>
       </div>
       <h2 class="mobile-title">QWER Hacks</h2>
-      {showNav && <div className="mobile-nav" onClick={handleClick}> <Navbar/></div >}
+      {showNav && <div className="mobile-nav" onClick={handleClick}> <Navbar/></div>}
     </div >
 
   );

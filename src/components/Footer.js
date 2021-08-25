@@ -4,7 +4,6 @@ import React from "react";
 function Footer() {
 
    return (
-
       <div class="footer">
          <div class="footer-container" >
             <div class="footer-section">
@@ -37,7 +36,7 @@ function Footer() {
             <div class="footer-section">
                <a class="footer-link" href="https://drive.google.com/file/d/1Q-oz3N8M9OQd0Assxkzp0lhJrG9K_yp0/view" target="_blank" rel="noopener noreferrer">sponsorship packet (color)</a>
                <a class="footer-link" href="https://drive.google.com/file/d/15rca4077W_vbpksJKcfUJlV75e-Mt_OC/view" target="_blank" rel="noopener noreferrer">sponsorship packet (b/w)</a>
-               <a class="footer-link" href="https://docs.google.com/forms/d/e/1FAIpQLScLI58PM-83LkVisDNw7MtaODQpSp36QtJEDjhsgAgmd9XQNA/viewform" target="_blank" rel="noopener noreferrer">interested in judging/mentoring/volunteering?</a>
+               <a class="footer-link" href="https://docs.google.com/forms/d/e/1FAIpQLScLI58PM-83LkVisDNw7MtaODQpSp36QtJEDjhsgAgmd9XQNA/viewform" target="_blank" rel="noopener noreferrer">interested in judging, mentoring, or volunteering?</a>
             </div>
          </div>
       </div>
