@@ -63,8 +63,8 @@ h5,
 h6 {
   font-family: "kenokylight", sans-serif;
   letter-spacing: 3px;
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
 }
 
 .content {
@@ -73,11 +73,11 @@ h6 {
 }
 
 .card {
-  padding: 2em;
-  margin: 0.5em;
+  padding: 1.75em;
+  margin: 1em;
   border: 3px solid rgba(255, 255, 255, 0.4);
   border-radius: 30px;
-  max-width: 700px;
+  max-width: 650px;
   line-height: 1.5em;
   font-size: small;
 }
@@ -140,58 +140,59 @@ h6 {
 .nav {
   width: 100%;
   text-align: center;
-
+  &-link {
+    vertical-align: middle;
+  }
+  &-home-button {
+    box-sizing: border-box;
+    margin: 0.3em;
+    width: 5em;
+    border-radius: 50%;
+  }
+  &-home-button:hover, a.active .nav-home-button {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
   &-button {
     text-align: center;
     padding: 1.25em;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 16px;
     border: 3px solid transparent;
-    outline: none;
     background-color: transparent;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-    margin-right: 0.25em;
-    margin-left: 0.25em;
+    margin: 0.25em;
     font-family: "Avenir Next Demi", sans-serif;
     color: white;
   }
-
   &-hover-purple:hover,
   a.active .nav-hover-purple {
     background-color: $bg-purple;
     color: $text-purple;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
-
   &-hover-peach:hover,
   a.active .nav-hover-peach {
     background-color: $bg-peach;
     color: $text-peach;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
-
   &-hover-yellow:hover,
   a.active .nav-hover-yellow {
     background-color: $bg-yellow;
     color: $text-yellow;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
-
   &-hover-indigo:hover,
   a.active .nav-hover-indigo {
     background-color: $bg-indigo;
     color: $text-indigo;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
-
   &-hover-blue:hover,
   a.active .nav-hover-blue {
     background-color: $bg-blue;
     color: $text-blue;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
-
   &-hover-green:hover,
   a.active .nav-hover-green {
     background-color: $bg-green;
@@ -259,55 +260,55 @@ h6 {
   &-image {
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
+  }
+
+  &-blurb {
+    margin-top: 0.5em;
   }
 }
 
 ////////////////////// FOOTER ///////////////////////////
 .footer {
   padding-top: 170px;
-  padding-bottom: 30px;
-  padding-left: 6%;
-  padding-right: 6%;
-  display: flex;
-  flex-direction: row;
-  // background-color: lightblue;
-
-  &-section {
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  &-logo-social {
-    width: 30%;
-  }
-
-  &-logo {
-    width: 100%;
-  }
-
-  &-social {
-    width: 100%;
+  &-container {
+    background-color: rgba(255, 219, 219, 0.8); //peach
+    // background-color: rgba(220, 215, 234, 0.8); //indigo bg
+    // background-color: rgba(101, 83, 157, 0.8); //indigo text
+    border-top: 3px solid rgba(255, 255, 255, 0.6);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 6%;
+    padding-right: 6%;
     display: flex;
     flex-direction: row;
   }
-
-  &-icon-wrapper {
-    width: 15%;
+  &-section {
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
   }
-
-  &-icon {
-    width: 100%;
+  &-logo {
+    width: 50%;
   }
+  &-social {
+    width: 100px;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    margin: 0.5em;
+  }
+  &-icon-wrapper {
+    max-width: 40px;
 
+  }
   &-link {
     text-decoration: underline;
     font-size: x-small;
     padding: 0.25em;
+    color: $text-peach;
+    // color: $text-indigo;
+    // color: rgba(220, 220, 220, 1);
+    display: block;
   }
 }
 
@@ -318,10 +319,12 @@ h6 {
 .names {
   display: flex;
   flex-direction: row;
-}
-
-.name-col {
-  padding-right: 3em;
+  &-col {
+    padding-right: 3em;
+  }
+  &-pronouns {
+    font-size: x-small;
+  }
 }
 
 .social_media {
@@ -377,11 +380,6 @@ h6 {
 .sponsor-class {
   margin-bottom: 35px;
   max-width: 800px;
-}
-
-.sponsorship-packet {
-  text-decoration: none;
-  color: black;
 }
 
 .spons-img {
@@ -443,11 +441,10 @@ h6 {
   left: 20px;
   display: grid;
   height: 30px;
-
   &-line {
     width: 35px;
     height: 4px;
-    background-color: black;
+    background-color: white;
     margin: 3px 0;
     border-radius: 20%;
   }

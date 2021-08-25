@@ -21,27 +21,39 @@ function Home() {
             </div>
             <div class="tracks">
                 <div class="tracks-section card green-scheme">
-                    <img src={require("../img/c&c_circle.png")} alt="community and connection" class="tracks-image" width="200px" />
+                    <img src={require("../img/c&c_circle.png")} alt="community and connection" class="tracks-image" width="225px" />
+                    <h3>Track 1:</h3>
+                    <h2>Community &#x26; Connection</h2>
                     <div class="tracks-blurb">
-                        technology can strengthen communities — create a hack to promote healthy communities and connection!
+                        {/* technology can strengthen communities —  */}
+                        create a hack to promote healthy communities and connection!
                     </div>
                 </div>
                 <div class="tracks-section card blue-scheme">
-                    <img src={require("../img/h&w_circle.png")} alt="health and wellness" class="tracks-image" width="200px" />
+                    <img src={require("../img/h&w_circle.png")} alt="health and wellness" class="tracks-image" width="225px" />
+                    <h3>Track 2:</h3>
+                    <h2>Health &#x26; Wellness</h2>
                     <div class="tracks-blurb">
-                        technology has become a big contributor to the health and wellness field. create a hack that encourages mental, physical, and/or emotional wellbeing!
+                        {/* technology has become a big contributor to the health and wellness field.  */}
+                        create a hack that encourages mental, physical, and/or emotional wellbeing!
                     </div>
                 </div>
                 <div class="tracks-section card yellow-scheme">
-                    <img src={require("../img/l&g_circle.png")} alt="learning and growth" class="tracks-image" width="200px" />
+                    <img src={require("../img/l&g_circle.png")} alt="learning and growth" class="tracks-image" width="225px" />
+                    <h3>Track 3:</h3>
+                    <h2>Learning &#x26; Growth</h2>
                     <div class="tracks-blurb">
-                        seeking education is one way to learn and develop. create a hack to share what helps you grow and motivate others!
+                        {/* seeking education is one way to learn and develop.  */}
+                        create a hack to share what helps you grow and motivate others!
                     </div>
                 </div>
                 <div class="tracks-section card peach-scheme">
-                    <img src={require("../img/a&e_circle.png")} alt="art and expression" class="tracks-image" width="200px" />
+                    <img src={require("../img/a&e_circle.png")} alt="art and expression" class="tracks-image" width="225px" />
+                    <h3>Track 4:</h3>
+                    <h2>Art &#x26; Expression</h2>
                     <div class="tracks-blurb">
-                        engineering and art are often intertwined. create a hack to express yourself and showcase your artistry!
+                        {/* engineering and art are often intertwined.  */}
+                        create a hack to express yourself and showcase your artistry!
                     </div>
                 </div>
             </div>

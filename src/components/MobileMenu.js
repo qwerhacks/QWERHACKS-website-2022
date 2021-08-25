@@ -16,8 +16,8 @@ function MobileMenu() {
         <div class="hamburger-line"></div>
         <div class="hamburger-line"></div>
       </div>
-      <div class="mobile-title">QWER HACKS</div>
-      {showNav && <div className="mobile-nav" onClick={handleClick}> <Navbar /></div >}
+      <h2 class="mobile-title">QWER Hacks</h2>
+      {showNav && <div className="mobile-nav" onClick={handleClick}> <Navbar/></div >}
     </div >
 
   );

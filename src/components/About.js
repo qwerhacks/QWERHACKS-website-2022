@@ -5,18 +5,18 @@ function About() {
       <div className="About" class="card yellow-scheme">
          <h1><div>About</div></h1>
          <div class="team">
-            <h2>team:</h2>
+            <h2>Team:</h2>
             <div class="names">
-               <div class="name-col">
-                  <div class="n"> <b>christine</b> kim </div>
-                  <div class="n"> <b>diantha</b> ngo </div>
-                  <div class="n"> <b>karina</b> ting </div>
-                  <div class="n"> <b>rithika</b> srinivasan </div>
+               <div class="names-col">
+                  <div> christine kim <span class="names-pronouns">(they/she)</span></div>
+                  <div> diantha ngo <span class="names-pronouns">(she/her)</span></div>
+                  <div> karina ting <span class="names-pronouns">(she/her)</span></div>
+                  <div> rithika srinivasan <span class="names-pronouns">(she/her)</span></div>
                </div>
-               <div class="name-col">
-                  <div class="n"> <b>spurthi</b> rallapalli </div>
-                  <div class="n"> <b>tanya</b> zhong </div>
-                  <div class="n"> <b>vivian</b> chu </div>
+               <div class="names-col">
+                  <div> spurthi rallapalli <span class="names-pronouns">(she/her)</span></div>
+                  <div> tanya zhong <span class="names-pronouns">(she/her)</span></div>
+                  <div> vaughn chu <span class="names-pronouns">(he/him)</span></div>
                </div>
             </div>
          </div>
