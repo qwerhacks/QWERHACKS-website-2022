@@ -23,60 +23,6 @@ $text-blue: #1c679c;
 $bg-green: rgba(220, 239, 223, 0.6);
 $text-green: #327544;
 
-.purple-scheme {
-  background-color: $bg-purple;
-  color: $text-purple;
-  a {
-    color: $text-purple;
-    text-decoration: underline;
-  }
-}
-
-.peach-scheme {
-  background-color: $bg-peach;
-  color: $text-peach;
-  a {
-    color: $text-peach;
-    text-decoration: underline;
-  }
-}
-
-.yellow-scheme {
-  background-color: $bg-yellow;
-  color: $text-yellow;
-  a {
-    color: $text-yellow;
-    text-decoration: underline;
-  }
-}
-
-.indigo-scheme {
-  background-color: $bg-indigo;
-  color: $text-indigo;
-  a {
-    color: $text-indigo;
-    text-decoration: underline;
-  }
-}
-
-.blue-scheme {
-  background-color: $bg-blue;
-  color: $text-blue;
-  a {
-    color: $text-blue;
-    text-decoration: underline;
-  }
-}
-
-.green-scheme {
-  background-color: $bg-green;
-  color: $text-green;
-  a {
-    color: $text-green;
-    text-decoration: underline;
-  }
-}
-
 html {
   height: 100%;
 }
@@ -136,6 +82,65 @@ h6 {
   font-size: small;
 }
 
+.purple-scheme {
+  background-color: $bg-purple;
+  color: $text-purple;
+  a {
+    color: $text-purple;
+  }
+}
+
+.peach-scheme {
+  background-color: $bg-peach;
+  color: $text-peach;
+  a {
+    color: $text-peach;
+  }
+}
+
+.yellow-scheme {
+  background-color: $bg-yellow;
+  color: $text-yellow;
+  a {
+    color: $text-yellow;
+  }
+}
+
+.indigo-scheme {
+  background-color: $bg-indigo;
+  color: $text-indigo;
+  a {
+    color: $text-indigo;
+  }
+}
+
+.blue-scheme {
+  background-color: $bg-blue;
+  color: $text-blue;
+  a {
+    color: $text-blue;
+  }
+}
+
+.green-scheme {
+  background-color: $bg-green;
+  color: $text-green;
+  a {
+    color: $text-green;
+  }
+}
+
+////////////////// LINK HOVER EFFECT ///////////////////////
+a {
+  text-decoration: underline;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: black;
+}
+
 /////////////// NAV /////////////////////
 .nav {
   width: 100%;
@@ -148,6 +153,8 @@ h6 {
     margin: 0.3em;
     width: 5em;
     border-radius: 50%;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
   }
   &-home-button:hover,
   a.active .nav-home-button {
@@ -163,6 +170,8 @@ h6 {
     margin: 0.25em;
     font-family: "Avenir Next Demi", sans-serif;
     color: white;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
   }
   &-hover-purple:hover,
   a.active .nav-hover-purple {
@@ -270,23 +279,19 @@ h6 {
 .footer {
   padding-top: 170px;
   &-container {
-    // background-color: rgba(255, 219, 219, 0.8); //peach
-    // background-color: rgba(253, 233, 211, 0.8); //yellow
-    // background-color: rgba(220, 215, 234, 0.8); //indigo bg
-    background-color: rgba(241, 208, 229, 0.8); //purple
     border-top: 2px solid rgba(255, 255, 255, 0.6);
     // box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.6);
     padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 6%;
     padding-right: 6%;
     display: flex;
     flex-direction: row;
-    color: $text-purple;
     font-size: small;
   }
   &-section {
     width: 33%;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -302,13 +307,20 @@ h6 {
   &-icon-wrapper {
     max-width: 35px;
     min-width: 35px;
-    margin: 6px;
+    max-height: 35px;
+    min-height: 35px;
+    margin: 3px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  &-icon-wrapper:hover {
+    border: 3px solid rgba(255, 255, 255, 0.4);
   }
   &-link {
-    text-decoration: underline;
     font-size: x-small;
     padding: 0.25em;
-    color: $text-purple;
     display: block;
     margin-left: 8px;
   }
@@ -522,7 +534,11 @@ h6 {
     }
     &-icon-wrapper {
       margin: 5px;
+      max-width: 50px;
       min-width: 50px;
+    }
+    &-icon-wrapper:hover {
+      border: 3px solid transparent;
     }
   }
 }

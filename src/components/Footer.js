@@ -5,14 +5,14 @@ function Footer() {
 
    return (
       <div class="footer">
-         <div class="footer-container" >
+         <div class="footer-container purple-scheme" >
             <div class="footer-section">
                <a href="https://www.qwerhacks.com/">
                   <img src={require("../img/qh_logo.png")} alt="website logo" class="footer-logo" />
                </a>
             </div>
             <div class="footer-section">
-               <div>social media:</div>
+               <div>contact us:</div>
 
                <div class="footer-social">
                   <div class="footer-icon-wrapper">
