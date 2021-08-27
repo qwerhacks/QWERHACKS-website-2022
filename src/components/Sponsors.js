@@ -7,7 +7,7 @@ function Sponsors(props) {
       <h1><div>Sponsors</div>
         {/* <div class="subtitle">// our <a class="edit" href="https://drive.google.com/file/d/17rk7LLz3M1pvERu4jV5smDqKyXVDLIkI/view?usp=sharing" target="_blank" rel="noopener noreferrer" >sponsorship deck</a> + <a class="edit" href="https://tinyurl.com/qwer-sponsor" target="_blank" rel="noopener noreferrer" >sponsorship form</a></div> */}
       </h1>
-      <p><b>contact us by email, facebook, or instagram if you're interested in sponsoring qwer hacks 2022!</b></p>
+      <p>contact us by email, facebook, or instagram if you're interested in sponsoring qwer hacks 2022!</p>
       <div class="other"> <a href="https://drive.google.com/file/d/1Q-oz3N8M9OQd0Assxkzp0lhJrG9K_yp0/view" target="_blank" rel="noopener noreferrer" class="sponsorship-packet">sponsorship packet (color)</a> </div>
       <div class="other"> <a href="https://drive.google.com/file/d/15rca4077W_vbpksJKcfUJlV75e-Mt_OC/view" target="_blank" rel="noopener noreferrer" class="sponsorship-packet">sponsorship packet (b/w)</a> </div>
       {/* <div class="sponsor-class">

@@ -22,7 +22,7 @@ function Home() {
             <div class="tracks">
                 <div class="tracks-section card green-scheme">
                     <img src={require("../img/c&c_circle.png")} alt="community and connection" class="tracks-image" width="225px" />
-                    <div>track 1:</div>
+                    <h3 class="track-number">track 1:</h3>
                     <h2>Community &#x26; Connection</h2>
                     <div class="tracks-blurb">
                         {/* technology can strengthen communities —  */}
@@ -31,7 +31,7 @@ function Home() {
                 </div>
                 <div class="tracks-section card blue-scheme">
                     <img src={require("../img/h&w_circle.png")} alt="health and wellness" class="tracks-image" width="225px" />
-                    <div>track 2:</div>
+                    <h3 class="track-number">track 2:</h3>
                     <h2>Health &#x26; Wellness</h2>
                     <div class="tracks-blurb">
                         {/* technology has become a big contributor to the health and wellness field.  */}
@@ -40,7 +40,7 @@ function Home() {
                 </div>
                 <div class="tracks-section card yellow-scheme">
                     <img src={require("../img/l&g_circle.png")} alt="learning and growth" class="tracks-image" width="225px" />
-                    <div>track 3:</div>
+                    <h3 class="track-number">track 3:</h3>
                     <h2>Learning &#x26; Growth</h2>
                     <div class="tracks-blurb">
                         {/* seeking education is one way to learn and develop.  */}
@@ -49,7 +49,7 @@ function Home() {
                 </div>
                 <div class="tracks-section card peach-scheme">
                     <img src={require("../img/a&e_circle.png")} alt="art and expression" class="tracks-image" width="225px" />
-                    <div>track 4:</div>
+                    <h3 class="track-number">track 4:</h3>
                     <h2>Art &#x26; Expression</h2>
                     <div class="tracks-blurb">
                         {/* engineering and art are often intertwined.  */}

@@ -7,7 +7,7 @@ function Collaborators(props) {
          <h1>Collaborators
             {/* <div class="subtitle">//<a class="edit" href="https://tinyurl.com/qwer-hacks-collab" target="_blank" rel="noopener noreferrer" > interested in mentoring?</a></div> */}
          </h1>
-         <div>coming soon...</div>
+         <p>coming soon...</p>
 
          {/* <div class="mentors">
             <div class="people">

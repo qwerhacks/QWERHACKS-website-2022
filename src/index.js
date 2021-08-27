@@ -21,7 +21,7 @@ ReactDOM.render(
       <div>
          <MobileMenu/>
       </div>
-      {/* <img src={require("./img/mlh-trust-badge-2021-white.png")} alt="mlh badge" class="mlh-banner" /> */}
+      <img src={require("./img/mlh-trust-badge-2021-white.png")} alt="mlh badge" class="mlh-banner" />
 
       <div className="content">
          <div className="desktop-nav"><Navbar/></div>

@@ -5,7 +5,7 @@ import React from "react";
         return (
           <div class="schedule card indigo-scheme">
             <h1>Schedule</h1>
-            <div>coming soon...</div>
+            <p>coming soon...</p>
             {/* <ul>
               <li class="session">
                 <div class="when"><b>10:00-11:00 AM PST, sat 1/23</b></div>

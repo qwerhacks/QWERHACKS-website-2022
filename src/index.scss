@@ -130,6 +130,13 @@ h6 {
   }
 }
 
+.track-number {
+  font-family: "kenokylight", sans-serif;
+  letter-spacing: 3px;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
 ////////////////// LINK HOVER EFFECT ///////////////////////
 a {
   text-decoration: underline;
@@ -142,32 +149,39 @@ a:hover {
 }
 
 /////////////// NAV /////////////////////
+$home-button-height: 8em;
+$home-button-top: 16px;
+
+.home-button {
+  position: absolute;
+  top: $home-button-top;
+  left: $home-button-top;
+  width: $home-button-height;
+  border-radius: 50%;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.home-button:hover,
+a.active .home-button {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
 .nav {
-  width: 100%;
+  margin-top: $home-button-top;
+  height: $home-button-height;
   text-align: center;
-  &-link {
-    vertical-align: middle;
-  }
-  &-home-button {
-    box-sizing: border-box;
-    margin: 0.3em;
-    width: 5em;
-    border-radius: 50%;
-    -webkit-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
-  }
-  &-home-button:hover,
-  a.active .nav-home-button {
-    background-color: rgba(255, 255, 255, 0.4);
-  }
+  // background-color: lightblue;
   &-button {
-    text-align: center;
     padding: 1.25em;
+    height: 50%;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 18px;
     border: 3px solid transparent;
     background-color: transparent;
-    margin: 0.25em;
+    margin-top: 0.25 * $home-button-height;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
     font-family: "Avenir Next Demi", sans-serif;
     color: white;
     -webkit-transition: all 0.15s ease-in-out;
@@ -302,14 +316,16 @@ a:hover {
     width: 100px;
     display: flex;
     flex-direction: row;
-    margin-left: 8px;
+    // margin-left: 8px;
   }
   &-icon-wrapper {
     max-width: 35px;
     min-width: 35px;
     max-height: 35px;
     min-height: 35px;
-    margin: 3px;
+    margin-top: 6px;
+    margin-right: 8px;
+    margin-left: -3px;
     border: 3px solid transparent;
     border-radius: 50%;
     -webkit-transition: all 0.1s ease-in-out;
@@ -533,7 +549,7 @@ a:hover {
       display: flex;
     }
     &-icon-wrapper {
-      margin: 5px;
+      margin-right: 10px;
       max-width: 50px;
       min-width: 50px;
     }
