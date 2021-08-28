@@ -3,11 +3,13 @@ import React from "react";
 function Collaborators(props) {
 
    return (
-      <div class="card green-scheme">
+      <div class="card indigo-scheme">
          <h1>Collaborators
             {/* <div class="subtitle">//<a class="edit" href="https://tinyurl.com/qwer-hacks-collab" target="_blank" rel="noopener noreferrer" > interested in mentoring?</a></div> */}
          </h1>
-         <p>coming soon...</p>
+         <div class="top-margin">
+            please fill out our <a href="https://docs.google.com/forms/d/e/1FAIpQLScLI58PM-83LkVisDNw7MtaODQpSp36QtJEDjhsgAgmd9XQNA/viewform" target="_blank" rel="noopener noreferrer">collaborator form</a> if you are interested in judging, mentoring, or volunteering!
+         </div>
 
          {/* <div class="mentors">
             <div class="people">

@@ -88,6 +88,9 @@ h6 {
   a {
     color: $text-purple;
   }
+  .tracks-image {
+    filter: drop-shadow(0 0 1rem $palette-purple);
+  }
 }
 
 .peach-scheme {
@@ -95,6 +98,9 @@ h6 {
   color: $text-peach;
   a {
     color: $text-peach;
+  }
+  .tracks-image {
+    filter: drop-shadow(0 0 1rem $palette-peach);
   }
 }
 
@@ -104,6 +110,9 @@ h6 {
   a {
     color: $text-yellow;
   }
+  .tracks-image {
+    filter: drop-shadow(0 0 1rem $palette-yellow);
+  }
 }
 
 .indigo-scheme {
@@ -111,6 +120,9 @@ h6 {
   color: $text-indigo;
   a {
     color: $text-indigo;
+  }
+  .tracks-image {
+    filter: drop-shadow(0 0 1rem $palette-indigo);
   }
 }
 
@@ -120,6 +132,9 @@ h6 {
   a {
     color: $text-blue;
   }
+  .tracks-image {
+    filter: drop-shadow(0 0 1rem $palette-blue);
+  }
 }
 
 .green-scheme {
@@ -128,13 +143,9 @@ h6 {
   a {
     color: $text-green;
   }
-}
-
-.track-number {
-  font-family: "kenokylight", sans-serif;
-  letter-spacing: 3px;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
+  .tracks-image {
+    filter: drop-shadow(0 0 1rem $palette-green);
+  }
 }
 
 ////////////////// LINK HOVER EFFECT ///////////////////////
@@ -149,7 +160,7 @@ a:hover {
 }
 
 /////////////// NAV /////////////////////
-$home-button-height: 8em;
+$home-button-height: 10vw;
 $home-button-top: 16px;
 
 .home-button {
@@ -170,55 +181,89 @@ a.active .home-button {
 .nav {
   margin-top: $home-button-top;
   height: $home-button-height;
+  line-height: $home-button-height;
   text-align: center;
-  // background-color: lightblue;
   &-button {
-    padding: 1.25em;
-    height: 50%;
+    vertical-align: middle;
+    padding: 1.2em;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 16px;
     border: 3px solid transparent;
     background-color: transparent;
-    margin-top: 0.25 * $home-button-height;
-    margin-left: 0.25em;
-    margin-right: 0.25em;
+    margin: 0.25em;
     font-family: "Avenir Next Demi", sans-serif;
     color: white;
-    -webkit-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  &-hover-purple .nav-button-text {
+    text-shadow: 0 0 8px $text-purple;
   }
   &-hover-purple:hover,
   a.active .nav-hover-purple {
+    .nav-button-text {
+      text-shadow: none;
+    }
     background-color: $bg-purple;
     color: $text-purple;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
+  &-hover-peach .nav-button-text {
+    text-shadow: 0 0 8px $text-peach;
+  }
   &-hover-peach:hover,
   a.active .nav-hover-peach {
+    .nav-button-text {
+      text-shadow: none;
+    }
     background-color: $bg-peach;
     color: $text-peach;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
+  &-hover-yellow .nav-button-text {
+    text-shadow: 0 0 8px $text-yellow;
+  }
   &-hover-yellow:hover,
   a.active .nav-hover-yellow {
+    .nav-button-text {
+      text-shadow: none;
+    }
     background-color: $bg-yellow;
     color: $text-yellow;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
+  &-hover-indigo .nav-button-text {
+    text-shadow: 0 0 8px $text-indigo;
+  }
   &-hover-indigo:hover,
   a.active .nav-hover-indigo {
+    .nav-button-text {
+      text-shadow: none;
+    }
     background-color: $bg-indigo;
     color: $text-indigo;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
+  &-hover-blue .nav-button-text {
+    text-shadow: 0 0 8px $text-blue;
+  }
   &-hover-blue:hover,
   a.active .nav-hover-blue {
+    .nav-button-text {
+      text-shadow: none;
+    }
     background-color: $bg-blue;
     color: $text-blue;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
+  &-hover-green .nav-button-text {
+    text-shadow: 0 0 8px $text-blue;
+  }
   &-hover-green:hover,
   a.active .nav-hover-green {
+    .nav-button-text {
+      text-shadow: none;
+    }
     background-color: $bg-green;
     color: $text-green;
     border: 3px solid rgba(255, 255, 255, 0.4);
@@ -264,6 +309,10 @@ a.active .home-button {
   max-width: 800px;
 }
 
+.top-margin {
+  margin-top: 1em;
+}
+
 ///////////////// TRACKS /////////////////
 .tracks {
   max-width: 800px;
@@ -284,6 +333,7 @@ a.active .home-button {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 1em;
+    width: 95%;
   }
   &-blurb {
     margin-top: 0.5em;
@@ -530,7 +580,7 @@ a.active .home-button {
       max-width: 400px;
     }
     &-image {
-      max-width: 150px;
+      width: 60%;
     }
   }
 

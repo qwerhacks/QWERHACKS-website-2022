@@ -3,7 +3,7 @@ import React from "react";
    function Schedule(props) {
 
         return (
-          <div class="schedule card indigo-scheme">
+          <div class="schedule card green-scheme">
             <h1>Schedule</h1>
             <p>coming soon...</p>
             {/* <ul>
