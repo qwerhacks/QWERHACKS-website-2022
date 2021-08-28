@@ -44,7 +44,7 @@ function Home() {
                     <h2>Learning &#x26; Growth</h2>
                     <div class="tracks-blurb">
                         {/* seeking education is one way to learn and develop.  */}
-                        create a hack to share what helps you grow and motivate others!
+                        create a hack to promote growth and motivate others!
                     </div>
                 </div>
                 <div class="tracks-section card peach-scheme">

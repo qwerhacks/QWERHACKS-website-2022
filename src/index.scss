@@ -196,74 +196,62 @@ a.active .home-button {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
-  &-hover-purple .nav-button-text {
+  &-hover-purple {
     text-shadow: 0 0 8px $text-purple;
   }
   &-hover-purple:hover,
   a.active .nav-hover-purple {
-    .nav-button-text {
-      text-shadow: none;
-    }
+    text-shadow: none;
     background-color: $bg-purple;
     color: $text-purple;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
-  &-hover-peach .nav-button-text {
+  &-hover-peach {
     text-shadow: 0 0 8px $text-peach;
   }
   &-hover-peach:hover,
   a.active .nav-hover-peach {
-    .nav-button-text {
-      text-shadow: none;
-    }
+    text-shadow: none;
     background-color: $bg-peach;
     color: $text-peach;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
-  &-hover-yellow .nav-button-text {
+  &-hover-yellow {
     text-shadow: 0 0 8px $text-yellow;
   }
   &-hover-yellow:hover,
   a.active .nav-hover-yellow {
-    .nav-button-text {
-      text-shadow: none;
-    }
+    text-shadow: none;
     background-color: $bg-yellow;
     color: $text-yellow;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
-  &-hover-indigo .nav-button-text {
+  &-hover-indigo {
     text-shadow: 0 0 8px $text-indigo;
   }
   &-hover-indigo:hover,
   a.active .nav-hover-indigo {
-    .nav-button-text {
-      text-shadow: none;
-    }
+    text-shadow: none;
     background-color: $bg-indigo;
     color: $text-indigo;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
-  &-hover-blue .nav-button-text {
+  &-hover-blue {
     text-shadow: 0 0 8px $text-blue;
   }
   &-hover-blue:hover,
   a.active .nav-hover-blue {
-    .nav-button-text {
-      text-shadow: none;
-    }
+    text-shadow: none;
     background-color: $bg-blue;
     color: $text-blue;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
-  &-hover-green .nav-button-text {
+  &-hover-green {
     text-shadow: 0 0 8px $text-blue;
   }
   &-hover-green:hover,
   a.active .nav-hover-green {
-    .nav-button-text {
-      text-shadow: none;
-    }
+    text-shadow: none;
     background-color: $bg-green;
     color: $text-green;
     border: 3px solid rgba(255, 255, 255, 0.4);

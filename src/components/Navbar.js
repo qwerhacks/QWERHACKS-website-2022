@@ -8,13 +8,13 @@ function Navbar() {
         <div>
             <NavLink exact to="/"><img class="home-button" src={require("../img/qh_logo_circle.png")} alt="qwer hacks home" /></NavLink>
             <div class="nav">
-                <NavLink to="/apply"><button type="button" class="nav-button nav-hover-peach"><span class="nav-button-text">apply</span></button></NavLink>
-                <NavLink to="/faq"><button type="button" class="nav-button nav-hover-yellow"><span class="nav-button-text">faq</span></button></NavLink>
-                <NavLink to="/schedule"><button type="button" class="nav-button nav-hover-green"><span class="nav-button-text">schedule</span></button></NavLink>
-                <NavLink to="/sponsors"><button type="button" class="nav-button nav-hover-blue"><span class="nav-button-text">sponsors</span></button></NavLink>
-                <NavLink to="/collaborators"><button type="button" class="nav-button nav-hover-indigo"><span class="nav-button-text">collaborators</span></button></NavLink>
-                <NavLink to="/resources"><button type="button" class="nav-button nav-hover-purple"><span class="nav-button-text">resources</span></button></NavLink>
-                <NavLink to="/about"><button type="button" class="nav-button nav-hover-peach"><span class="nav-button-text">about</span></button></NavLink>
+                <NavLink to="/apply"><button type="button" class="nav-button nav-hover-peach">apply</button></NavLink>
+                <NavLink to="/faq"><button type="button" class="nav-button nav-hover-yellow">faq</button></NavLink>
+                <NavLink to="/schedule"><button type="button" class="nav-button nav-hover-green">schedule</button></NavLink>
+                <NavLink to="/sponsors"><button type="button" class="nav-button nav-hover-blue">sponsors</button></NavLink>
+                <NavLink to="/collaborators"><button type="button" class="nav-button nav-hover-indigo">collaborators</button></NavLink>
+                <NavLink to="/resources"><button type="button" class="nav-button nav-hover-purple">resources</button></NavLink>
+                <NavLink to="/about"><button type="button" class="nav-button nav-hover-peach">about</button></NavLink>
                 {/* 
                 <NavLink to="/apply"><button type="button" class="nav-button nav-hover-peach">apply</button></NavLink>
                 <NavLink to="/faq"><button type="button" class="nav-button nav-hover-yellow">faq</button></NavLink>
