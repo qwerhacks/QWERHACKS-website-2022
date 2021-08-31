@@ -160,28 +160,32 @@ a:hover {
 }
 
 /////////////// NAV /////////////////////
-$home-button-height: 10vw;
-$home-button-top: 16px;
+$desktop-home-button-height: 10vw;
+$desktop-home-button-top: 16px;
 
-.home-button {
+.desktop-home-button {
   position: absolute;
-  top: $home-button-top;
-  left: $home-button-top;
-  width: $home-button-height;
+  top: $desktop-home-button-top;
+  left: $desktop-home-button-top;
+  width: $desktop-home-button-height;
   border-radius: 50%;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
-.home-button:hover,
-a.active .home-button {
+.desktop-home-button:hover,
+a.active .desktop-home-button {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
+.mobile-home-button {
+  display: none;
+}
+
 .nav {
-  margin-top: $home-button-top;
-  height: $home-button-height;
-  line-height: $home-button-height;
+  margin-top: $desktop-home-button-top;
+  height: $desktop-home-button-height;
+  line-height: $desktop-home-button-height;
   text-align: center;
   &-button {
     vertical-align: middle;
@@ -552,6 +556,42 @@ a.active .home-button {
     }
   }
 
+  .desktop-home-button {
+    display: none;
+  }
+
+  .mobile-home-button {
+    display: block;
+    height: 30%;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    // vertical-align: middle;
+  }
+
+  .nav {
+    // display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    line-height: 5em;
+    text-align: center;
+    &-button {
+      vertical-align: middle;
+      padding: 1.2em;
+      border-radius: 50px;
+      font-size: 16px;
+      margin: 0.25em;
+    }
+  }
+
+  .mobile-nav {
+    text-align: center;
+  }
+
   .desktop-nav {
     display: none;
   }
@@ -648,7 +688,7 @@ a.active .home-button {
   }
 
   .nav {
-    &-home-button {
+    &-desktop-home-button {
       width: 3.5em;
     }
     &-button {
