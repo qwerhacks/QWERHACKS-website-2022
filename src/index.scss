@@ -649,6 +649,14 @@ a.active .mobile-home-button {
 
 //////////////////// max-width: 576px /////////////////////
 @media screen and (max-width: 576px) {
+  .footer {
+    padding-top: 40px;
+  }
+
+  .card {
+    font-size: 15px;
+  }
+
   .names {
     flex-direction: column;
     &-col {
