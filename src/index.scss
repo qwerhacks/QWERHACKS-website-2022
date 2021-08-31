@@ -77,9 +77,9 @@ h6 {
   margin: 1em;
   border: 3px solid rgba(255, 255, 255, 0.4);
   border-radius: 30px;
-  max-width: 650px;
+  max-width: 60vw;
   line-height: 1.5em;
-  font-size: small;
+  font-size: medium;
 }
 
 .purple-scheme {
@@ -174,8 +174,11 @@ $desktop-home-button-top: 16px;
 }
 
 .desktop-home-button:hover,
-a.active .desktop-home-button {
+a.active .desktop-home-button,
+.mobile-home-button:hover,
+a.active .mobile-home-button {
   background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
 }
 
 .mobile-home-button {
@@ -325,7 +328,8 @@ a.active .desktop-home-button {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 1em;
-    width: 95%;
+    max-width: 225px;
+    max-height: 225px;
   }
   &-blurb {
     margin-top: 0.5em;
@@ -336,7 +340,6 @@ a.active .desktop-home-button {
   padding-top: 170px;
   &-container {
     border-top: 2px solid rgba(255, 255, 255, 0.6);
-    // box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.6);
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 6%;
@@ -358,7 +361,6 @@ a.active .desktop-home-button {
     width: 100px;
     display: flex;
     flex-direction: row;
-    // margin-left: 8px;
   }
   &-icon-wrapper {
     max-width: 35px;
@@ -514,10 +516,14 @@ a.active .desktop-home-button {
   display: none;
 }
 
+//////////////////// max-width: 992px /////////////////////
 @media screen and (max-width: 992px) {
   body {
-    font-size: small;
     background-size: auto;
+  }
+
+  .card {
+    font-size: 16px;
   }
 
   .container {
@@ -568,11 +574,9 @@ a.active .desktop-home-button {
     margin-left: auto;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    // vertical-align: middle;
   }
 
   .nav {
-    // display: flex;
     flex-wrap: wrap;
     margin-right: auto;
     margin-left: auto;
@@ -602,15 +606,20 @@ a.active .desktop-home-button {
   }
 }
 
+//////////////////// max-width: 768px /////////////////////
 @media screen and (max-width: 768px) {
   .tracks {
     &-section {
       max-width: 400px;
     }
     &-image {
-      width: 240px;
-      height: 240px;
+      max-width: 240px;
+      max-height: 240px;
     }
+  }
+
+  .card {
+    max-width: 400px;
   }
 
   .footer {
@@ -638,21 +647,8 @@ a.active .desktop-home-button {
   }
 }
 
+//////////////////// max-width: 576px /////////////////////
 @media screen and (max-width: 576px) {
-  // .tracks {
-  //   &-section {
-  //     max-width: 400px;
-  //   }
-  //   &-image {
-  //     width: 240px;
-  //     height: 240px;
-  //   }
-  // }
-
-  .card {
-    font-size: 15px;
-  }
-
   .names {
     flex-direction: column;
     &-col {
