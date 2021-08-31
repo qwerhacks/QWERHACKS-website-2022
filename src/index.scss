@@ -568,7 +568,8 @@ a.active .home-button {
       max-width: 400px;
     }
     &-image {
-      width: 60%;
+      width: 240px;
+      height: 240px;
     }
   }
 
@@ -598,6 +599,16 @@ a.active .home-button {
 }
 
 @media screen and (max-width: 576px) {
+  // .tracks {
+  //   &-section {
+  //     max-width: 400px;
+  //   }
+  //   &-image {
+  //     width: 240px;
+  //     height: 240px;
+  //   }
+  // }
+
   .card {
     font-size: 15px;
   }
