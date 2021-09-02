@@ -10,33 +10,34 @@ function Sponsors(props) {
       <p>contact us by email, facebook, or instagram if you're interested in sponsoring qwer hacks 2022!</p>
       <div class="other"> <a href="https://drive.google.com/file/d/1Q-oz3N8M9OQd0Assxkzp0lhJrG9K_yp0/view" target="_blank" rel="noopener noreferrer" class="sponsorship-packet">sponsorship packet (color)</a> </div>
       <div class="other"> <a href="https://drive.google.com/file/d/15rca4077W_vbpksJKcfUJlV75e-Mt_OC/view" target="_blank" rel="noopener noreferrer" class="sponsorship-packet">sponsorship packet (b/w)</a> </div>
-      {/* <div class="sponsor-class">
-        <b>#include &lt;spirit tier&gt;</b>
+      <div class="sponsor-class">
+        <h2>Pride Tier</h2>
         <div class="sponsors">
-          <a class="spons-img" href="https://www.xilinx.com/" target="_blank" rel="noopener noreferrer" > <img src={require("../img/xilinx.png")} alt="xilinx logo" width="90px" /> </a>
+          {/* <a class="spons-img" href="https://www.xilinx.com/" target="_blank" rel="noopener noreferrer" > <img src={require("../img/xilinx.png")} alt="xilinx logo" width="90px" /> </a> */}
         </div>
       </div>
       <div class="sponsor-class">
-        <b>#include &lt;harmony tier&gt;</b>
+        <h2>Freedom Tier</h2>
         <div class="sponsors">
-          <a class="spons-img" href="https://www.att.com" target="_blank" rel="noopener noreferrer" ><img src={require("../img/att.png")} alt="att logo" width="90px" /></a>
           <a class="spons-img" href="https://robinhood.com/us/en/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/robinhood2.png")} alt="robinhood logo" width="90px" /></a>
+          <a class="spons-img" href="https://www.henselphelps.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/hensel-phelps.png")} alt="hensel phelps logo" height="90px" /></a>
+          {/* <a class="spons-img" href="https://www.att.com" target="_blank" rel="noopener noreferrer" ><img src={require("../img/att.png")} alt="att logo" width="90px" /></a> */}
         </div>
       </div>
       <div class="sponsor-class">
-        <b>#include &lt;life tier&gt;</b>
+        <h2>Rainbow Tier</h2>
         <div class="sponsors">
-          <a class="spons-img" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/facebook.png")} alt="facebook logo" width="90px" /></a>
-          <a class="spons-img" href="https://www.northropgrumman.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/northrop.png")} alt="northop logo" width="90px" /></a>
-          <a class="spons-img" href="https://www.pimco.com" target="_blank" rel="noopener noreferrer" ><img src={require("../img/pimco.png")} alt="pimco logo" width="90px" /></a>
+          <a class="spons-img" href="https://www.qualcomm.com" target="_blank" rel="noopener noreferrer" ><img src={require("../img/qualcomm.jpg")} alt="qualcomm logo" width="90px" /></a>
+          <a class="spons-img" href="https://www.kpmg.us/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/kpmg.jpg")} alt="KPMG logo" width="90px" /></a>
+          {/* <a class="spons-img" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/facebook.png")} alt="facebook logo" width="90px" /></a> 
           <a class="spons-img" href="https://www.fmglobal.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/fmglobal.png")} alt="fmglobal logo" width="90px" /></a>
           <a class="spons-img" href="https://aerospace.org/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/aerospace.png")} alt="aerospace logo" width="90px" /></a>
           <a class="spons-img" href="https://www.chevron.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/chevron.png")} alt="chervon logo" width="90px" /></a>
           <a class="spons-img" href="https://www.marathonpetroleum.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/marathon.png")} alt="marathon logo" width="90px" /></a>
-          <a class="spons-img" href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank" rel="noopener noreferrer" ><img src={require("../img/stickermule2.png")} alt="stickermule logo" width="90px" /></a>
+          <a class="spons-img" href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank" rel="noopener noreferrer" ><img src={require("../img/stickermule2.png")} alt="stickermule logo" width="90px" /></a> */}
         </div>
       </div>
-      <h1>PARTNERS</h1>
+      {/* <h1>PARTNERS</h1>
       <div class="sponsor-class">
         <div class="sponsors">
           <a class="spons-img" href="https://www.swe.ucla.edu/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/swe.png")} alt="swe-ucla logo" width="100px" /></a>

@@ -445,23 +445,20 @@ a.active .mobile-home-button {
 }
 
 .sponsors {
-  padding-top: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .sponsor-class {
-  margin-bottom: 35px;
-  max-width: 800px;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .spons-img {
-  margin-right: 70px;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
   align-items: center;
 }
 
@@ -599,11 +596,6 @@ a.active .mobile-home-button {
   .desktop-nav {
     display: none;
   }
-
-  .spons-img {
-    margin-right: 30px;
-    padding-bottom: 20px;
-  }
 }
 
 //////////////////// max-width: 768px /////////////////////
@@ -666,15 +658,6 @@ a.active .mobile-home-button {
 
   .other {
     padding: 7px;
-  }
-
-  .sponsors {
-    display: block;
-    padding-right: 0px;
-  }
-
-  .spons-img {
-    margin-right: 0px;
   }
 
   .people {
