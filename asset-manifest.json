@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.825b6ee0.chunk.css",
-    "main.js": "/static/js/main.cd6fa9e4.chunk.js",
-    "main.js.map": "/static/js/main.cd6fa9e4.chunk.js.map",
+    "main.css": "/static/css/main.15075a09.chunk.css",
+    "main.js": "/static/js/main.ea0dba61.chunk.js",
+    "main.js.map": "/static/js/main.ea0dba61.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.68e7579c.js",
     "runtime-main.js.map": "/static/js/runtime-main.68e7579c.js.map",
     "static/js/2.9da878d4.chunk.js": "/static/js/2.9da878d4.chunk.js",
     "static/js/2.9da878d4.chunk.js.map": "/static/js/2.9da878d4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ef586858f38a067e3278711599e01c60.js": "/precache-manifest.ef586858f38a067e3278711599e01c60.js",
+    "precache-manifest.44ea6399d0d96c6507a8c577a3451e75.js": "/precache-manifest.44ea6399d0d96c6507a8c577a3451e75.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.825b6ee0.chunk.css.map": "/static/css/main.825b6ee0.chunk.css.map",
+    "static/css/main.15075a09.chunk.css.map": "/static/css/main.15075a09.chunk.css.map",
     "static/js/2.9da878d4.chunk.js.LICENSE.txt": "/static/js/2.9da878d4.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/static/media/kenokylight-3zezl-webfont.fc47da7e.woff2",
     "static/media/a&e_circle.png": "/static/media/a&e_circle.2c5f1524.png",
@@ -18,14 +18,16 @@
     "static/media/email3.png": "/static/media/email3.bdf8bb1a.png",
     "static/media/h&w_circle.png": "/static/media/h&w_circle.4a7eda91.png",
     "static/media/instagram.png": "/static/media/instagram.1d3bf019.png",
+    "static/media/kpmg.jpg": "/static/media/kpmg.b157f8f5.jpg",
     "static/media/l&g_circle.png": "/static/media/l&g_circle.4d954b7c.png",
     "static/media/qh_logo.png": "/static/media/qh_logo.94db60ef.png",
-    "static/media/qh_logo_circle.png": "/static/media/qh_logo_circle.d326da41.png"
+    "static/media/qh_logo_circle.png": "/static/media/qh_logo_circle.d326da41.png",
+    "static/media/qualcomm.jpg": "/static/media/qualcomm.0b93ef77.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.68e7579c.js",
     "static/js/2.9da878d4.chunk.js",
-    "static/css/main.825b6ee0.chunk.css",
-    "static/js/main.cd6fa9e4.chunk.js"
+    "static/css/main.15075a09.chunk.css",
+    "static/js/main.ea0dba61.chunk.js"
   ]
 }
