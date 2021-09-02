@@ -19,16 +19,16 @@ function Sponsors(props) {
       <div class="sponsor-class">
         <h2>Freedom Tier</h2>
         <div class="sponsors">
-          <a class="spons-img" href="https://robinhood.com/us/en/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/robinhood2.png")} alt="robinhood logo" width="90px" /></a>
-          <a class="spons-img" href="https://www.henselphelps.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/hensel-phelps.png")} alt="hensel phelps logo" height="90px" /></a>
-          {/* <a class="spons-img" href="https://www.att.com" target="_blank" rel="noopener noreferrer" ><img src={require("../img/att.png")} alt="att logo" width="90px" /></a> */}
+          <a class="spons-img" href="https://robinhood.com/us/en/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/robinhood2.png")} alt="robinhood logo" width="80px" /></a>
+          <a class="spons-img" href="https://www.henselphelps.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/hensel-phelps.png")} alt="hensel phelps logo" height="80px" /></a>
+          {/* <a class="spons-img" href="https://www.att.com" target="_blank" rel="noopener noreferrer" ><img src={require("../img/att.png")} alt="att logo" width="80px" /></a> */}
         </div>
       </div>
       <div class="sponsor-class">
         <h2>Rainbow Tier</h2>
         <div class="sponsors">
-          <a class="spons-img" href="https://www.qualcomm.com" target="_blank" rel="noopener noreferrer" ><img src={require("../img/qualcomm.jpg")} alt="qualcomm logo" width="90px" /></a>
-          <a class="spons-img" href="https://www.kpmg.us/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/kpmg.jpg")} alt="KPMG logo" width="90px" /></a>
+          <a class="spons-img" href="https://www.qualcomm.com" target="_blank" rel="noopener noreferrer" ><img src={require("../img/qualcomm.jpg")} alt="qualcomm logo" width="80px" /></a>
+          <a class="spons-img" href="https://www.kpmg.us/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/kpmg.jpg")} alt="KPMG logo" width="80px" /></a>
           {/* <a class="spons-img" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/facebook.png")} alt="facebook logo" width="90px" /></a> 
           <a class="spons-img" href="https://www.fmglobal.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/fmglobal.png")} alt="fmglobal logo" width="90px" /></a>
           <a class="spons-img" href="https://aerospace.org/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/aerospace.png")} alt="aerospace logo" width="90px" /></a>
