@@ -460,10 +460,6 @@ a.active .mobile-home-button {
   padding-right: 50px;
 }
 
-/* .spons-img:hover {
-  border: 1px solid black;
-} */
-
 .schedule ul {
   list-style-type: none;
   padding-left: 1em;
@@ -544,11 +540,13 @@ a.active .mobile-home-button {
 
   .mobile {
     &-header {
+      margin-top: 15px;
       display: block;
       text-align: center;
     }
     &-title {
-      margin-top: 15px;
+      text-decoration: none !important;
+      color: white;
     }
     &-nav {
       display: block;

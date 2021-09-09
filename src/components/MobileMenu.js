@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
+import { NavLink } from "react-router-dom";
 
 function MobileMenu() {
   const [showNav, setshowNav] = useState(false);
@@ -16,8 +17,8 @@ function MobileMenu() {
         <div class="hamburger-line"></div>
         <div class="hamburger-line"></div>
       </div>
-      <h2 class="mobile-title">QWER Hacks</h2>
-      {showNav && <div className="mobile-nav" onClick={handleClick}> <Navbar/></div>}
+      <NavLink exact to="/" class="mobile-title"><h2>QWER Hacks</h2></NavLink>
+      {showNav && <div className="mobile-nav" onClick={handleClick}> <Navbar /></div>}
     </div >
 
   );
