@@ -8,7 +8,7 @@ function Footer() {
          <div class="footer-container purple-scheme" >
             <div class="footer-section">
                <a href="https://www.qwerhacks.com/">
-                  <img src={require("../img/qh_logo.png")} alt="website logo" class="footer-logo" />
+                  <img src={require("../img/qh_logo.jpg")} alt="website logo" class="footer-logo" />
                </a>
             </div>
             <div class="footer-section">
