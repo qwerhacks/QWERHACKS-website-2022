@@ -60,7 +60,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.team-header {
   font-family: "kenokylight", sans-serif;
   letter-spacing: 3px;
   margin-top: 0.3em;
@@ -88,7 +89,8 @@ h6 {
   a {
     color: $text-purple;
   }
-  .tracks-image {
+  .tracks-image,
+  .team-image {
     filter: drop-shadow(0 0 1rem $palette-purple);
   }
 }
@@ -99,7 +101,8 @@ h6 {
   a {
     color: $text-peach;
   }
-  .tracks-image {
+  .tracks-image,
+  .team-image {
     filter: drop-shadow(0 0 1rem $palette-peach);
   }
 }
@@ -110,7 +113,8 @@ h6 {
   a {
     color: $text-yellow;
   }
-  .tracks-image {
+  .tracks-image,
+  .team-image {
     filter: drop-shadow(0 0 1rem $palette-yellow);
   }
 }
@@ -121,7 +125,8 @@ h6 {
   a {
     color: $text-indigo;
   }
-  .tracks-image {
+  .tracks-image,
+  .team-image {
     filter: drop-shadow(0 0 1rem $palette-indigo);
   }
 }
@@ -132,7 +137,8 @@ h6 {
   a {
     color: $text-blue;
   }
-  .tracks-image {
+  .tracks-image,
+  .team-image {
     filter: drop-shadow(0 0 1rem $palette-blue);
   }
 }
@@ -143,7 +149,8 @@ h6 {
   a {
     color: $text-green;
   }
-  .tracks-image {
+  .tracks-image,
+  .team-image {
     filter: drop-shadow(0 0 1rem $palette-green);
   }
 }
@@ -335,6 +342,41 @@ a.active .mobile-home-button {
     margin-top: 0.5em;
   }
 }
+
+///////////////// TEAM /////////////////
+.team {
+  &-section {
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+    font-size: x-small;
+  }
+  &-bio {
+    display: flex;
+    flex-direction: row;
+    .team-blurb {
+      font-size: medium;
+      margin-top: 32px;
+    }
+  }
+  &-image {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    max-width: 150px;
+    max-height: 150px;
+  }
+  &-header {
+    font-weight: bold;
+    font-size: medium;
+  }
+  &-blurb {
+    margin-top: 20px;
+  }
+}
+
 ////////////////////// FOOTER ///////////////////////////
 .footer {
   padding-top: 170px;
@@ -384,10 +426,6 @@ a.active .mobile-home-button {
     display: block;
     margin-left: 8px;
   }
-}
-
-.team {
-  margin-top: 2em;
 }
 
 .names {
