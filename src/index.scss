@@ -359,14 +359,14 @@ a.active .mobile-home-button {
     flex-direction: row;
     .team-blurb {
       font-size: medium;
-      margin-top: 32px;
+      margin-top: 30px;
     }
   }
   &-image {
     margin-right: 30px;
     margin-bottom: 10px;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 140px;
+    max-height: 140px;
   }
   &-header {
     font-weight: bold;
@@ -379,7 +379,7 @@ a.active .mobile-home-button {
 
 ////////////////////// FOOTER ///////////////////////////
 .footer {
-  padding-top: 170px;
+  padding-top: 100px;
   &-container {
     border-top: 2px solid rgba(255, 255, 255, 0.6);
     padding-top: 30px;

@@ -32,71 +32,36 @@ function About() {
             </div>
          </div>
 
-
-
          <div class="team-section card peach-scheme">
             <div class="team-bio">
-               <img src={require("../img/diantha_headshot.jpg")} alt="diantha headshot" class="team-image" width="225px" />
+               <img src={require("../img/vaughn_headshot.jpg")} alt="Vaughn headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
-                  <h1>Diantha Ngo <span class="names-pronouns">(she/her)</span></h1>
+                  <h1>Vaughn Chu <span class="names-pronouns">(he/him/his)</span></h1>
                   <div class="team-blurb">
                      <span class="team-header">Role: </span>
-                     media and publicity chair
+                     internal technical director
                   </div>
                   <div class="team-blurb">
                      <span class="team-header">Major; Year: </span>
-                     bioengineering, 2022
+                     electrical engineering, 2024
                   </div>
                </div>
             </div>
             <div class="team-blurb">
                <span class="team-header">What I Do: </span>
-               I'm responsible for designing QWER Hacks' visual theme and promotional materials, as well as the swag that participants receive! I also raise hell on our social media accounts.
+               I lead the internal committee of QWER Hacks, where my primary role is to provide needed resources, support, and leadership to my team. I ensure that we are working on schedule, getting all of our logistics organized, and improving QWER Hacks in any way possible!
             </div>
             <div class="team-blurb">
                <span class="team-header">Why: </span>
-               I'm very happy to be able to contribute to such a welcoming and loving community, especially in the world of tech, which could benefit from more diverse voices and perspectives that I strive to empower through my work with QWER Hacks.
+               I work on QWER Hacks because I care about bringing more visibility to the queer and trans community worldwide and creating a space where people like us can feel safe. Being a part of this team has given me the opportunity to be around amazing and passionate people who share these same missions and goals.
             </div>
             <div class="team-blurb">
                <span class="team-header">I'm Excited About... </span>
-               I'm really excited about being able to host the hackathon in-person and put on another amazing event with my even more amazing organizer team! And the balloon animal artist who's going to be there, of course.
+               I'm excited to meet all of our attendees and hear your stories. Personally, QWER Hacks has given me the space to discover my own identity, become more empowered, and grow into the person I am now, and I'm excited for this to be shared with all of you!
             </div>
          </div>
-
-
 
          <div class="team-section card yellow-scheme">
-            <div class="team-bio">
-               <img src={require("../img/karina_headshot.jpg")} alt="karina headshot" class="team-image" width="225px" />
-               <div class="team-bio-text">
-                  <h1>Karina Ting <span class="names-pronouns">(she/her/hers)</span></h1>
-                  <div class="team-blurb">
-                     <span class="team-header">Role: </span>
-                     finance
-                  </div>
-                  <div class="team-blurb">
-                     <span class="team-header">Major; Year: </span>
-                     mechanical engnieering, 2022
-                  </div>
-               </div>
-            </div>
-            <div class="team-blurb">
-               <span class="team-header">What I Do: </span>
-               As finance chair, I help out with calculating and minimizing the costs in our budget, which include venue, catering, prizes, swag, etc. I'll also be working on funding applications so we can get money to help cover these costs.
-            </div>
-            <div class="team-blurb">
-               <span class="team-header">Why: </span>
-               I work on qwer hacks because diversity and representation in tech is so important! I feel incredibly lucky that I get to work with the everyone on the qwer hacks team to help create an inclusive and celebratory space for our community.
-            </div>
-            <div class="team-blurb">
-               <span class="team-header">I'm Excited About... </span>
-               I'm excited to see all the creative and impactful products that our hackers build!
-            </div>
-         </div>
-
-
-
-         <div class="team-section card green-scheme">
             <div class="team-bio">
                <img src={require("../img/rithika_headshot.jpeg")} alt="Rithika headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
@@ -125,9 +90,7 @@ function About() {
             </div>
          </div>
 
-
-
-         <div class="team-section card blue-scheme">
+         <div class="team-section card green-scheme">
             <div class="team-bio">
                <img src={require("../img/spurthi_headshot.jpg")} alt="Spurthi headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
@@ -156,7 +119,34 @@ function About() {
             </div>
          </div>
 
-
+         <div class="team-section card blue-scheme">
+            <div class="team-bio">
+               <img src={require("../img/diantha_headshot.jpg")} alt="diantha headshot" class="team-image" width="225px" />
+               <div class="team-bio-text">
+                  <h1>Diantha Ngo <span class="names-pronouns">(she/her)</span></h1>
+                  <div class="team-blurb">
+                     <span class="team-header">Role: </span>
+                     media and publicity chair
+                  </div>
+                  <div class="team-blurb">
+                     <span class="team-header">Major; Year: </span>
+                     bioengineering, 2022
+                  </div>
+               </div>
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">What I Do: </span>
+               I'm responsible for designing QWER Hacks' visual theme and promotional materials, as well as the swag that participants receive! I also raise hell on our social media accounts.
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">Why: </span>
+               I'm very happy to be able to contribute to such a welcoming and loving community, especially in the world of tech, which could benefit from more diverse voices and perspectives that I strive to empower through my work with QWER Hacks.
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">I'm Excited About... </span>
+               I'm really excited about being able to host the hackathon in-person and put on another amazing event with my even more amazing organizer team! And the balloon animal artist who's going to be there, of course.
+            </div>
+         </div>
 
          <div class="team-section card indigo-scheme">
             <div class="team-bio">
@@ -188,38 +178,40 @@ function About() {
          </div>
 
 
-
          <div class="team-section card purple-scheme">
             <div class="team-bio">
-               <img src={require("../img/vaughn_headshot.jpg")} alt="Vaughn headshot" class="team-image" width="225px" />
+               <img src={require("../img/karina_headshot.jpg")} alt="karina headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
-                  <h1>Vaughn Chu <span class="names-pronouns">(he/him/his)</span></h1>
+                  <h1>Karina Ting <span class="names-pronouns">(she/her/hers)</span></h1>
                   <div class="team-blurb">
                      <span class="team-header">Role: </span>
-                     internal technical director
+                     finance
                   </div>
                   <div class="team-blurb">
                      <span class="team-header">Major; Year: </span>
-                     electrical engineering, 2024
+                     mechanical engnieering, 2022
                   </div>
                </div>
             </div>
             <div class="team-blurb">
                <span class="team-header">What I Do: </span>
-               I lead the internal committee of QWER Hacks, where my primary role is to provide needed resources, support, and leadership to my team. I ensure that we are working on schedule, getting all of our logistics organized, and improving QWER Hacks in any way possible!
+               As finance chair, I help out with calculating and minimizing the costs in our budget, which include venue, catering, prizes, swag, etc. I'll also be working on funding applications so we can get money to help cover these costs.
             </div>
             <div class="team-blurb">
                <span class="team-header">Why: </span>
-               I work on QWER Hacks because I care about bringing more visibility to the queer and trans community worldwide and creating a space where people like us can feel safe. Being a part of this team has given me the opportunity to be around amazing and passionate people who share these same missions and goals.
+               I work on qwer hacks because diversity and representation in tech is so important! I feel incredibly lucky that I get to work with the everyone on the qwer hacks team to help create an inclusive and celebratory space for our community.
             </div>
             <div class="team-blurb">
                <span class="team-header">I'm Excited About... </span>
-               I'm excited to meet all of our attendees and hear your stories. Personally, QWER Hacks has given me the space to discover my own identity, become more empowered, and grow into the person I am now, and I'm excited for this to be shared with all of you!
+               I'm excited to see all the creative and impactful products that our hackers build!
             </div>
          </div>
+
+
+
+
+
       </div>
-
-
    );
 }
 
