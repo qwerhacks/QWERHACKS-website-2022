@@ -39,7 +39,7 @@ function Home() {
                     </div>
                 </div>
                 <div class="tracks-section card yellow-scheme">
-                    <img src={require("../img/l&g_circle.png")} alt="learning and growth" class="tracks-image" width="225px" />
+                    <img src={require("../img/l&g_lr.png")} alt="learning and growth" class="tracks-image" width="225px" />
                     <h3 class="track-number">track 3:</h3>
                     <h2>Learning &#x26; Growth</h2>
                     <div class="tracks-blurb">
@@ -48,7 +48,7 @@ function Home() {
                     </div>
                 </div>
                 <div class="tracks-section card peach-scheme">
-                    <img src={require("../img/a&e_circle.png")} alt="art and expression" class="tracks-image" width="225px" />
+                    <img src={require("../img/a&e_lr.png")} alt="art and expression" class="tracks-image" width="225px" />
                     <h3 class="track-number">track 4:</h3>
                     <h2>Art &#x26; Expression</h2>
                     <div class="tracks-blurb">
