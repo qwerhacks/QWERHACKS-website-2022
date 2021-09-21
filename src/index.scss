@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  background: url(./img/gradient-extra-long.jpg) no-repeat;
+  background: url(./img/gradient-extra-long.jpg) repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -358,8 +358,8 @@ a.active .mobile-home-button {
     display: flex;
     flex-direction: row;
     .team-blurb {
-      font-size: medium;
-      margin-top: 30px;
+      font-size: 22px;
+      margin-top: 28px;
     }
   }
   &-image {
@@ -641,6 +641,28 @@ a.active .mobile-home-button {
     &-image {
       max-width: 240px;
       max-height: 240px;
+    }
+  }
+
+  .team {
+    &-bio {
+      flex-direction: column;
+      line-height: 28px;
+      .team-blurb {
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    }
+    &-image {
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 30px;
+      max-width: 40vw;
+      max-height: 40vw;
+    }
+    &-header {
+      font-weight: bold;
+      font-size: small;
     }
   }
 

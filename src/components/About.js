@@ -7,7 +7,7 @@ function About() {
             <div class="team-bio">
                <img src={require("../img/christine_headshot.jpeg")} alt="christine headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
-                  <h1>Christine (Minjeong) Kim <span class="names-pronouns">(they/them)</span></h1>
+                  <h1>Christine (Minjeong) Kim <span class="names-pronouns">(they/them/theirs)</span></h1>
                   <div class="team-blurb">
                      <span class="team-header">Role: </span>
                      external co-director
@@ -65,7 +65,7 @@ function About() {
             <div class="team-bio">
                <img src={require("../img/rithika_headshot.jpeg")} alt="Rithika headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
-                  <h1>Rithika <span class="names-pronouns">(she/her)</span></h1>
+                  <h1>Rithika <span class="names-pronouns">(she/her/hers)</span></h1>
                   <div class="team-blurb">
                      <span class="team-header">Role: </span>
                      sponsorship
@@ -123,7 +123,7 @@ function About() {
             <div class="team-bio">
                <img src={require("../img/diantha_headshot.jpg")} alt="diantha headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
-                  <h1>Diantha Ngo <span class="names-pronouns">(she/her)</span></h1>
+                  <h1>Diantha Ngo <span class="names-pronouns">(she/her/hers)</span></h1>
                   <div class="team-blurb">
                      <span class="team-header">Role: </span>
                      media and publicity chair
@@ -152,7 +152,7 @@ function About() {
             <div class="team-bio">
                <img src={require("../img/tanya_headshot.png")} alt="tanya headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
-                  <h1>Tanya Zhong <span class="names-pronouns">(she/her)</span></h1>
+                  <h1>Tanya Zhong <span class="names-pronouns">(she/her/hers)</span></h1>
                   <div class="team-blurb">
                      <span class="team-header">Role: </span>
                      dev
@@ -177,7 +177,6 @@ function About() {
             </div>
          </div>
 
-
          <div class="team-section card purple-scheme">
             <div class="team-bio">
                <img src={require("../img/karina_headshot.jpg")} alt="karina headshot" class="team-image" width="225px" />
@@ -189,7 +188,7 @@ function About() {
                   </div>
                   <div class="team-blurb">
                      <span class="team-header">Major; Year: </span>
-                     mechanical engnieering, 2022
+                     mechanical engineering, 2022
                   </div>
                </div>
             </div>
@@ -206,11 +205,6 @@ function About() {
                I'm excited to see all the creative and impactful products that our hackers build!
             </div>
          </div>
-
-
-
-
-
       </div>
    );
 }
