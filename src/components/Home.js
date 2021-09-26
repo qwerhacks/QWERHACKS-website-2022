@@ -21,7 +21,7 @@ function Home() {
             </div>
             <div class="tracks">
                 <div class="tracks-section card green-scheme">
-                    <img src={require("../img/c&c_circle.png")} alt="community and connection" class="tracks-image" width="225px" />
+                    <img src={require("../img/c&c_lr.png")} alt="community and connection" class="tracks-image" width="225px" />
                     <h3 class="track-number">track 1:</h3>
                     <h2>Community &#x26; Connection</h2>
                     <div class="tracks-blurb">
@@ -30,7 +30,7 @@ function Home() {
                     </div>
                 </div>
                 <div class="tracks-section card blue-scheme">
-                    <img src={require("../img/h&w_circle.png")} alt="health and wellness" class="tracks-image" width="225px" />
+                    <img src={require("../img/h&w_lr.png")} alt="health and wellness" class="tracks-image" width="225px" />
                     <h3 class="track-number">track 2:</h3>
                     <h2>Health &#x26; Wellness</h2>
                     <div class="tracks-blurb">
