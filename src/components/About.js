@@ -10,7 +10,7 @@ function About() {
                   <h1>Christine (Minjeong) Kim <span class="names-pronouns">(they/them/theirs)</span></h1>
                   <div class="team-blurb">
                      <span class="team-header">Role: </span>
-                     external co-director
+                     external director
                   </div>
                   <div class="team-blurb">
                      <span class="team-header">Major; Year: </span>
@@ -39,7 +39,7 @@ function About() {
                   <h1>Vaughn Chu <span class="names-pronouns">(he/him/his)</span></h1>
                   <div class="team-blurb">
                      <span class="team-header">Role: </span>
-                     internal technical director
+                     internal director
                   </div>
                   <div class="team-blurb">
                      <span class="team-header">Major; Year: </span>
