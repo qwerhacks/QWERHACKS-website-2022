@@ -32,7 +32,7 @@ function About() {
             </div>
          </div>
 
-         <div class="team-section card peach-scheme">
+         {/* <div class="team-section card peach-scheme">
             <div class="team-bio">
                <img src={require("../img/vaughn_headshot.jpg")} alt="Vaughn headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
@@ -59,13 +59,13 @@ function About() {
                <span class="team-header">I'm Excited About... </span>
                I'm excited to meet all of our attendees and hear your stories. Personally, QWER Hacks has given me the space to discover my own identity, become more empowered, and grow into the person I am now, and I'm excited for this to be shared with all of you!
             </div>
-         </div>
+         </div> */}
 
          <div class="team-section card yellow-scheme">
             <div class="team-bio">
                <img src={require("../img/rithika_headshot.jpeg")} alt="Rithika headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
-                  <h1>Rithika <span class="names-pronouns">(she/her/hers)</span></h1>
+                  <h1>Rithika Srinivasan<span class="names-pronouns">(she/her/hers)</span></h1>
                   <div class="team-blurb">
                      <span class="team-header">Role: </span>
                      sponsorship
