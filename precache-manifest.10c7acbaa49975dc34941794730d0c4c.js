@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6fac8510e63a67bcfa46149268bb481",
+    "revision": "f97a7719e63ad54fb9e52e66cdaa392c",
     "url": "/index.html"
   },
   {
-    "revision": "94491dcbcc929a68475d",
+    "revision": "ec482e0b277eeb8a7881",
     "url": "/static/css/main.82c40f97.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9aa1acbc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94491dcbcc929a68475d",
-    "url": "/static/js/main.546aca88.chunk.js"
+    "revision": "ec482e0b277eeb8a7881",
+    "url": "/static/js/main.37cba9b6.chunk.js"
   },
   {
     "revision": "a585c8e96928d892102d",
@@ -106,9 +106,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c3741c7306f81cd2e8a7ea7de2202116",
     "url": "/static/media/tanya_headshot.c3741c73.png"
-  },
-  {
-    "revision": "cc0525123514c4fbe5a93c3c2520384f",
-    "url": "/static/media/vaughn_headshot.cc052512.jpg"
   }
 ]);
