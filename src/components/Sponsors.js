@@ -29,15 +29,20 @@ function Sponsors(props) {
         <div class="sponsors">
           <a class="spons-img" href="https://www.qualcomm.com" target="_blank" rel="noopener noreferrer" ><img src={require("../img/qualcomm.jpg")} alt="qualcomm logo" width="70px" /></a>
           <a class="spons-img" href="https://www.kpmg.us/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/kpmg.jpg")} alt="KPMG logo" width="70px" /></a>
-          <a class="spons-img" href="https://www.accenture.com/us-en" target="_blank" rel="noopener noreferrer" ><img src={require("../img/accenture.png")} alt="accenture logo" height="60px" /></a>
-          <a class="spons-img" href="https://www.northropgrumman.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/northrop-grumman.png")} alt="Northrop Grumman logo" height="60px" /></a>
+          <a class="spons-img" href="https://www.accenture.com/us-en" target="_blank" rel="noopener noreferrer" ><img src={require("../img/accenture.png")} alt="accenture logo" height="70px" /></a>
+          <a class="spons-img" href="https://www.northropgrumman.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/northrop-grumman.png")} alt="Northrop Grumman logo" height="70px" /></a>
           <a class="spons-img" href="https://www.getcruise.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/cruise.png")} alt="cruise logo" height="70px" /></a>
-          {/* <a class="spons-img" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/facebook.png")} alt="facebook logo" width="90px" /></a> 
-          <a class="spons-img" href="https://www.fmglobal.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/fmglobal.png")} alt="fmglobal logo" width="90px" /></a>
-          <a class="spons-img" href="https://aerospace.org/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/aerospace.png")} alt="aerospace logo" width="90px" /></a>
-          <a class="spons-img" href="https://www.chevron.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/chevron.png")} alt="chervon logo" width="90px" /></a>
-          <a class="spons-img" href="https://www.marathonpetroleum.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/marathon.png")} alt="marathon logo" width="90px" /></a>
-          <a class="spons-img" href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank" rel="noopener noreferrer" ><img src={require("../img/stickermule2.png")} alt="stickermule logo" width="90px" /></a> */}
+          <a class="spons-img" href="https://www.mwdh2o.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/metropolitan-seal-logo.svg")} alt="mwd logo" height="70px" /></a>
+          <a class="spons-img" href="https://www.boeing.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/boeing.png")} alt="Boeing logo" height="70px" /></a>
+          <a class="spons-img" href="https://www.sce.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/sce-logo.svg")} alt="SoCal Edison logo" height="70px" /></a>
+          <a class="spons-img" href="https://onprem.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/OnPrem-logo.png")} alt="OnPrem logo" height="70px" /></a>
+          <a class="spons-img" href="https://www.whiting-turner.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/wt-logo.png")} alt="Whiting-Turner logo" height="70px" /></a>
+          {/* <a class="spons-img" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/facebook.png")} alt="facebook logo" width="90px" /></a>  */}
+          {/* <a class="spons-img" href="https://www.fmglobal.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/fmglobal.png")} alt="fmglobal logo" width="90px" /></a> */}
+          <a class="spons-img" href="https://aerospace.org/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/aerospace.png")} alt="aerospace logo" width="70px" /></a>
+          {/* <a class="spons-img" href="https://www.chevron.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/chevron.png")} alt="chervon logo" width="90px" /></a> */}
+          {/* <a class="spons-img" href="https://www.marathonpetroleum.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/marathon.png")} alt="marathon logo" width="90px" /></a> */}
+          {/* <a class="spons-img" href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank" rel="noopener noreferrer" ><img src={require("../img/stickermule2.png")} alt="stickermule logo" width="90px" /></a> */}
         </div>
       </div>
       {/* <h1>PARTNERS</h1>

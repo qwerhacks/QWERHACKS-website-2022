@@ -65,7 +65,7 @@ function About() {
             <div class="team-bio">
                <img src={require("../img/rithika_headshot.jpeg")} alt="Rithika headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
-                  <h1>Rithika Srinivasan<span class="names-pronouns">(she/her/hers)</span></h1>
+                  <h1>Rithika Srinivasan <span class="names-pronouns">(she/her/hers)</span></h1>
                   <div class="team-blurb">
                      <span class="team-header">Role: </span>
                      sponsorship
