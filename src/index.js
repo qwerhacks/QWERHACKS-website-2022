@@ -19,12 +19,18 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(
    <BrowserRouter>
       <div>
-         <MobileMenu/>
+         <MobileMenu />
       </div>
       {/* <img src={require("./img/mlh-trust-badge-2021-white.png")} alt="mlh badge" class="mlh-banner" /> */}
+      {/* <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-white.svg" alt="Major League Hacking 2022 Hackathon Season" class="mlh-banner" /> */}
 
+      <a id="mlh-trust-badge"
+         href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=white"
+         target="_blank">
+         <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-white.svg" alt="Major League Hacking 2022 Hackathon Season" />
+      </a>
       <div className="content">
-         <div className="desktop-nav"><Navbar/></div>
+         <div className="desktop-nav"><Navbar /></div>
          <div className="container">
             <Switch>
                <Route exact path="/" component={Home} />
@@ -39,7 +45,7 @@ ReactDOM.render(
          </div>
       </div>
       <div>
-         <Footer/>
+         <Footer />
       </div>
    </BrowserRouter>
    ,

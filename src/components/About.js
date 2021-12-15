@@ -61,6 +61,35 @@ function About() {
             </div>
          </div> */}
 
+         <div class="team-section card peach-scheme">
+            <div class="team-bio">
+               <img src={require("../img/samika_headshot.jpg")} alt="samika headshot" class="team-image" width="225px" />
+               <div class="team-bio-text">
+                  <h1>Samika Karthik <span class="names-pronouns">(she/her/hers)</span></h1>
+                  <div class="team-blurb">
+                     <span class="team-header">Role: </span>
+                     operations
+                  </div>
+                  <div class="team-blurb">
+                     <span class="team-header">Major; Year: </span>
+                     bioengineering, 2023
+                  </div>
+               </div>
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">What I Do: </span>
+               I work on logistics leading up to and on the day of the event.
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">Why: </span>
+               Diverse perspectives are extremely important to the creation and growth of technology. It brings me great joy to be able to create an inclusive space where people can build technology.
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">I'm Excited About... </span>
+               seeing how the event comes together and seeing the attendees getting to work on tech that interests them!
+            </div>
+         </div>
+
          <div class="team-section card yellow-scheme">
             <div class="team-bio">
                <img src={require("../img/rithika_headshot.jpeg")} alt="Rithika headshot" class="team-image" width="225px" />
@@ -92,6 +121,35 @@ function About() {
 
          <div class="team-section card green-scheme">
             <div class="team-bio">
+               <img src={require("../img/margaret_headshot.JPG")} alt="margaret headshot" class="team-image" width="225px" />
+               <div class="team-bio-text">
+                  <h1>Margaret Capetz <span class="names-pronouns">(she/her/hers)</span></h1>
+                  <div class="team-blurb">
+                     <span class="team-header">Role: </span>
+                     sponsorship
+                  </div>
+                  <div class="team-blurb">
+                     <span class="team-header">Major; Year: </span>
+                     bioengineering, 2025
+                  </div>
+               </div>
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">What I Do: </span>
+               I reach out to companies and organize sponsor participation in the hackathon.
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">Why: </span>
+               I work on QWER hacks to take meaningful action in promoting inclusivity and fostering an accepting hack community!
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">I'm Excited About... </span>
+               working together to organize an inspiring and empowering experience :)
+            </div>
+         </div>
+
+         <div class="team-section card blue-scheme">
+            <div class="team-bio">
                <img src={require("../img/spurthi_headshot.jpg")} alt="Spurthi headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
                   <h1>Spurthi Rallapalli <span class="names-pronouns">(she/her/hers)</span></h1>
@@ -119,14 +177,14 @@ function About() {
             </div>
          </div>
 
-         <div class="team-section card blue-scheme">
+         <div class="team-section card indigo-scheme">
             <div class="team-bio">
                <img src={require("../img/diantha_headshot.jpg")} alt="diantha headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
                   <h1>Diantha Ngo <span class="names-pronouns">(she/her/hers)</span></h1>
                   <div class="team-blurb">
                      <span class="team-header">Role: </span>
-                     media and publicity chair
+                     media and publicity
                   </div>
                   <div class="team-blurb">
                      <span class="team-header">Major; Year: </span>
@@ -148,36 +206,37 @@ function About() {
             </div>
          </div>
 
-         <div class="team-section card indigo-scheme">
+         <div class="team-section card purple-scheme">
             <div class="team-bio">
-               <img src={require("../img/tanya_headshot.png")} alt="tanya headshot" class="team-image" width="225px" />
+               <img src={require("../img/chantal_headshot.jpeg")} alt="chantal headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
-                  <h1>Tanya Zhong <span class="names-pronouns">(she/her/hers)</span></h1>
+                  <h1>Chantal Wang <span class="names-pronouns">(she/her/hers)</span></h1>
                   <div class="team-blurb">
                      <span class="team-header">Role: </span>
-                     dev
+                     media and publicity
                   </div>
                   <div class="team-blurb">
                      <span class="team-header">Major; Year: </span>
-                     computer science, 2022
+                     mechanical engineering, 2025
                   </div>
                </div>
             </div>
             <div class="team-blurb">
                <span class="team-header">What I Do: </span>
-               I maintain this website and the Qwer Hacks Discord bot!
+               I help design flyers and posts to advertise!
             </div>
             <div class="team-blurb">
                <span class="team-header">Why: </span>
-               I feel it is my responsibility to make sure the spaces in which I work/live are as inclusive as possible. I enjoy using my web dev skills to further the gay agenda.
+               I loved how open and nice the community is and I wanted to contribute to that :D
             </div>
             <div class="team-blurb">
                <span class="team-header">I'm Excited About... </span>
-               interacting with our lovely hackers in person! (hopefully)
+               I’m excited to see what will come out of the hackathon this year!
             </div>
          </div>
 
-         <div class="team-section card purple-scheme">
+
+         <div class="team-section card peach-scheme">
             <div class="team-bio">
                <img src={require("../img/karina_headshot.jpg")} alt="karina headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
@@ -205,7 +264,40 @@ function About() {
                I'm excited to see all the creative and impactful products that our hackers build!
             </div>
          </div>
+
+
+
+         <div class="team-section card yellow-scheme">
+            <div class="team-bio">
+               <img src={require("../img/tanya_headshot.png")} alt="tanya headshot" class="team-image" width="225px" />
+               <div class="team-bio-text">
+                  <h1>Tanya Zhong <span class="names-pronouns">(she/her/hers)</span></h1>
+                  <div class="team-blurb">
+                     <span class="team-header">Role: </span>
+                     dev
+                  </div>
+                  <div class="team-blurb">
+                     <span class="team-header">Major; Year: </span>
+                     computer science, 2022
+                  </div>
+               </div>
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">What I Do: </span>
+               I maintain this website and the Qwer Hacks Discord bot!
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">Why: </span>
+               I feel it is my responsibility to make sure the spaces in which I work/live are as inclusive as possible. I enjoy using my web dev skills to further the gay agenda.
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">I'm Excited About... </span>
+               interacting with our lovely hackers in person! (hopefully)
+            </div>
+         </div>
       </div>
+
+
    );
 }
 
