@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9049a6aebea2758e7fb24a1bf7e32fd6",
+    "revision": "36509bee1e24d73508013706277ccc14",
     "url": "/index.html"
   },
   {
-    "revision": "d878b7fe6f99169a11dc",
-    "url": "/static/css/main.82c40f97.chunk.css"
+    "revision": "6ce25fa957bba547f323",
+    "url": "/static/css/main.b5520afa.chunk.css"
   },
   {
     "revision": "d75548abe4f1f854f2f9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9aa1acbc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d878b7fe6f99169a11dc",
-    "url": "/static/js/main.1518728d.chunk.js"
+    "revision": "6ce25fa957bba547f323",
+    "url": "/static/js/main.7c8e60e0.chunk.js"
   },
   {
     "revision": "a585c8e96928d892102d",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3fff54d473660d2ebf56498cfa21a1b8",
     "url": "/static/media/c&c_lr.3fff54d4.png"
+  },
+  {
+    "revision": "3be27fb6d52705f03b0c4c27cbb04330",
+    "url": "/static/media/chantal_headshot.3be27fb6.jpeg"
   },
   {
     "revision": "ae670657ca4a7532736ec2c1562bfc5b",
@@ -100,12 +104,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/l&g_lr.0437497f.png"
   },
   {
+    "revision": "5f8e6ab66dd08014e557277984b42a14",
+    "url": "/static/media/margaret_headshot.5f8e6ab6.JPG"
+  },
+  {
     "revision": "011c4ea4581bb46e038d8c48a6899b35",
     "url": "/static/media/metropolitan-seal-logo.011c4ea4.svg"
   },
   {
-    "revision": "b5b823668050dc3ee2899738178b3adf",
-    "url": "/static/media/qh_logo.b5b82366.jpg"
+    "revision": "176cc1a8644f30801b2e5b288adaeb0b",
+    "url": "/static/media/qh_logo.176cc1a8.jpg"
   },
   {
     "revision": "d326da415c1f2c4d74908c87020aa482",
@@ -118,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f95ae95247ffeefd027b783a9eb24f30",
     "url": "/static/media/rithika_headshot.f95ae952.jpeg"
+  },
+  {
+    "revision": "1bd251c2dfae1ade34c31aa5d577bfa1",
+    "url": "/static/media/samika_headshot.1bd251c2.jpg"
   },
   {
     "revision": "3a9b1c721734b56e2f6369573eed97c2",

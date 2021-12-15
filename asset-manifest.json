@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.82c40f97.chunk.css",
-    "main.js": "/static/js/main.1518728d.chunk.js",
-    "main.js.map": "/static/js/main.1518728d.chunk.js.map",
+    "main.css": "/static/css/main.b5520afa.chunk.css",
+    "main.js": "/static/js/main.7c8e60e0.chunk.js",
+    "main.js.map": "/static/js/main.7c8e60e0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.68e7579c.js",
     "runtime-main.js.map": "/static/js/runtime-main.68e7579c.js.map",
     "static/js/2.9aa1acbc.chunk.js": "/static/js/2.9aa1acbc.chunk.js",
     "static/js/2.9aa1acbc.chunk.js.map": "/static/js/2.9aa1acbc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.322f76fb0778586a9159fb18b7b00264.js": "/precache-manifest.322f76fb0778586a9159fb18b7b00264.js",
+    "precache-manifest.3f65d197da96f2dbf0ffdd5ba77e64c8.js": "/precache-manifest.3f65d197da96f2dbf0ffdd5ba77e64c8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.82c40f97.chunk.css.map": "/static/css/main.82c40f97.chunk.css.map",
+    "static/css/main.b5520afa.chunk.css.map": "/static/css/main.b5520afa.chunk.css.map",
     "static/js/2.9aa1acbc.chunk.js.LICENSE.txt": "/static/js/2.9aa1acbc.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/static/media/kenokylight-3zezl-webfont.fc47da7e.woff2",
     "static/media/CIA-logo-2.png": "/static/media/CIA-logo-2.fa56f029.png",
@@ -18,6 +18,7 @@
     "static/media/a&e_lr.png": "/static/media/a&e_lr.2d88aacc.png",
     "static/media/aerospace.png": "/static/media/aerospace.443cbc02.png",
     "static/media/c&c_lr.png": "/static/media/c&c_lr.3fff54d4.png",
+    "static/media/chantal_headshot.jpeg": "/static/media/chantal_headshot.3be27fb6.jpeg",
     "static/media/chevron.png": "/static/media/chevron.ae670657.png",
     "static/media/christine_headshot.jpeg": "/static/media/christine_headshot.5b4a7fe9.jpeg",
     "static/media/diantha_headshot.jpg": "/static/media/diantha_headshot.22566306.jpg",
@@ -27,11 +28,13 @@
     "static/media/karina_headshot.jpg": "/static/media/karina_headshot.509dfc55.jpg",
     "static/media/kpmg.jpg": "/static/media/kpmg.b157f8f5.jpg",
     "static/media/l&g_lr.png": "/static/media/l&g_lr.0437497f.png",
+    "static/media/margaret_headshot.JPG": "/static/media/margaret_headshot.5f8e6ab6.JPG",
     "static/media/metropolitan-seal-logo.svg": "/static/media/metropolitan-seal-logo.011c4ea4.svg",
-    "static/media/qh_logo.jpg": "/static/media/qh_logo.b5b82366.jpg",
+    "static/media/qh_logo.jpg": "/static/media/qh_logo.176cc1a8.jpg",
     "static/media/qh_logo_circle.png": "/static/media/qh_logo_circle.d326da41.png",
     "static/media/qualcomm.jpg": "/static/media/qualcomm.0b93ef77.jpg",
     "static/media/rithika_headshot.jpeg": "/static/media/rithika_headshot.f95ae952.jpeg",
+    "static/media/samika_headshot.jpg": "/static/media/samika_headshot.1bd251c2.jpg",
     "static/media/sce-logo.svg": "/static/media/sce-logo.3a9b1c72.svg",
     "static/media/spurthi_headshot.jpg": "/static/media/spurthi_headshot.565a713e.jpg",
     "static/media/tanya_headshot.png": "/static/media/tanya_headshot.c3741c73.png",
@@ -40,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.68e7579c.js",
     "static/js/2.9aa1acbc.chunk.js",
-    "static/css/main.82c40f97.chunk.css",
-    "static/js/main.1518728d.chunk.js"
+    "static/css/main.b5520afa.chunk.css",
+    "static/js/main.7c8e60e0.chunk.js"
   ]
 }
