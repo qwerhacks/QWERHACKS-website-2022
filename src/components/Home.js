@@ -7,9 +7,11 @@ function Home() {
             <div class="home-info card purple-scheme">
                 <div id="home-title">
                     <h1>QWER Hacks</h1>
-                    january 21-23, 2022
-                    {/* <img src={require("../img/qh_logo.png")} alt="website logo" class="footer-logo" width="400px" /> */}
+                    <i>a hybrid hackathon held virtually and in-person @ UCLA Ackerman Ballroom </i>
+                    <br></br>
+                    <i>january 21-23, 2022</i>
                 </div>
+                <br></br>
                 <p>we're back and ready to hack!! qwer hacks @ ucla is major league hacking's first
                     LGBTQIA+ hackathon that celebrates the queer and trans community in STEM. we bring
                     together queer individuals and allies through tech talks, technical and community-building
