@@ -12,6 +12,7 @@ function Sponsors(props) {
       <div class="sponsor-class">
         <h2>Pride Tier</h2>
         <div class="sponsors">
+        <a class="spons-img" href="https://mlh.io/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/mlh-logo-color.png")} alt="MLH logo" height="90px" /></a>
         <a class="spons-img" href="https://www.northropgrumman.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/northrop-grumman.png")} alt="Northrop Grumman logo" height="90px" /></a>
         <a class="spons-img" href="https://www.cia.gov/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/CIA-logo-2.png")} alt="CIA logo" height="110px" /></a>
 
