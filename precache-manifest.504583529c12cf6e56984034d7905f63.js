@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c9909657f5da780c71ad166f31245e8",
+    "revision": "e9b4d51b133d1307085c6b357f28d9c1",
     "url": "/index.html"
   },
   {
-    "revision": "d4c3216053a3543e9632",
+    "revision": "d7c39b1349486ee272e8",
     "url": "/static/css/main.010ea3e9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9aa1acbc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d4c3216053a3543e9632",
-    "url": "/static/js/main.7c8e60e0.chunk.js"
+    "revision": "d7c39b1349486ee272e8",
+    "url": "/static/js/main.537e74f6.chunk.js"
   },
   {
     "revision": "a585c8e96928d892102d",
@@ -132,8 +132,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/samika_headshot.1bd251c2.jpg"
   },
   {
-    "revision": "3a9b1c721734b56e2f6369573eed97c2",
-    "url": "/static/media/sce-logo.3a9b1c72.svg"
+    "revision": "0ebdf20111581732b631efab28ff486e",
+    "url": "/static/media/sce-logo.0ebdf201.svg"
   },
   {
     "revision": "565a713e089fd51c547d5be69caa6e86",

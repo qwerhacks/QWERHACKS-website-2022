@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.010ea3e9.chunk.css",
-    "main.js": "/static/js/main.7c8e60e0.chunk.js",
-    "main.js.map": "/static/js/main.7c8e60e0.chunk.js.map",
+    "main.js": "/static/js/main.537e74f6.chunk.js",
+    "main.js.map": "/static/js/main.537e74f6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.68e7579c.js",
     "runtime-main.js.map": "/static/js/runtime-main.68e7579c.js.map",
     "static/js/2.9aa1acbc.chunk.js": "/static/js/2.9aa1acbc.chunk.js",
     "static/js/2.9aa1acbc.chunk.js.map": "/static/js/2.9aa1acbc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9b6db96fc8185a5d97d06eb22850957c.js": "/precache-manifest.9b6db96fc8185a5d97d06eb22850957c.js",
+    "precache-manifest.504583529c12cf6e56984034d7905f63.js": "/precache-manifest.504583529c12cf6e56984034d7905f63.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.010ea3e9.chunk.css.map": "/static/css/main.010ea3e9.chunk.css.map",
     "static/js/2.9aa1acbc.chunk.js.LICENSE.txt": "/static/js/2.9aa1acbc.chunk.js.LICENSE.txt",
@@ -35,7 +35,7 @@
     "static/media/qualcomm.jpg": "/static/media/qualcomm.0b93ef77.jpg",
     "static/media/rithika_headshot.jpeg": "/static/media/rithika_headshot.f95ae952.jpeg",
     "static/media/samika_headshot.jpg": "/static/media/samika_headshot.1bd251c2.jpg",
-    "static/media/sce-logo.svg": "/static/media/sce-logo.3a9b1c72.svg",
+    "static/media/sce-logo.svg": "/static/media/sce-logo.0ebdf201.svg",
     "static/media/spurthi_headshot.jpg": "/static/media/spurthi_headshot.565a713e.jpg",
     "static/media/tanya_headshot.png": "/static/media/tanya_headshot.c3741c73.png",
     "static/media/wt-logo.png": "/static/media/wt-logo.118226b2.png"
@@ -44,6 +44,6 @@
     "static/js/runtime-main.68e7579c.js",
     "static/js/2.9aa1acbc.chunk.js",
     "static/css/main.010ea3e9.chunk.css",
-    "static/js/main.7c8e60e0.chunk.js"
+    "static/js/main.537e74f6.chunk.js"
   ]
 }
