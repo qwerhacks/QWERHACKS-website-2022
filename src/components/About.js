@@ -60,8 +60,36 @@ function About() {
                I'm excited to meet all of our attendees and hear your stories. Personally, QWER Hacks has given me the space to discover my own identity, become more empowered, and grow into the person I am now, and I'm excited for this to be shared with all of you!
             </div>
          </div> */}
-
          <div class="team-section card peach-scheme">
+            <div class="team-bio">
+               <img src={require("../img/maya_headshot.jpeg")} alt="maya headshot" class="team-image" width="225px" />
+               <div class="team-bio-text">
+                  <h1>Maya Balakrishnan <span class="names-pronouns">(she/her/hers)</span></h1>
+                  <div class="team-blurb">
+                     <span class="team-header">Role: </span>
+                     student experience
+                  </div>
+                  <div class="team-blurb">
+                     <span class="team-header">Major; Year: </span>
+                     computer science, 2025
+                  </div>
+               </div>
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">What I Do: </span>
+               I help make sure that everyone has a welcoming experience and answer any questions attendees may have on the day of the event. 
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">Why: </span>
+               Inclusivity and diversity in the tech field is so important to me, and I want to make sure members of marginalized groups know that they have spaces made by members of the community to celebrate their identities and have their voices be heard.
+            </div>
+            <div class="team-blurb">
+               <span class="team-header">I'm Excited About... </span>
+               I'm so excited to interact with all the attendees and see what they build!
+            </div>
+         </div>
+
+         <div class="team-section card yellow-scheme">
             <div class="team-bio">
                <img src={require("../img/samika_headshot.jpg")} alt="samika headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
@@ -90,7 +118,7 @@ function About() {
             </div>
          </div>
 
-         <div class="team-section card yellow-scheme">
+         <div class="team-section card green-scheme">
             <div class="team-bio">
                <img src={require("../img/rithika_headshot.jpeg")} alt="Rithika headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
@@ -119,7 +147,7 @@ function About() {
             </div>
          </div>
 
-         <div class="team-section card green-scheme">
+         <div class="team-section card blue-scheme">
             <div class="team-bio">
                <img src={require("../img/margaret_headshot.JPG")} alt="margaret headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
@@ -148,7 +176,7 @@ function About() {
             </div>
          </div>
 
-         <div class="team-section card blue-scheme">
+         <div class="team-section card indigo-scheme">
             <div class="team-bio">
                <img src={require("../img/spurthi_headshot.jpg")} alt="Spurthi headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
@@ -177,7 +205,7 @@ function About() {
             </div>
          </div>
 
-         <div class="team-section card indigo-scheme">
+         <div class="team-section card purple-scheme">
             <div class="team-bio">
                <img src={require("../img/diantha_headshot.jpg")} alt="diantha headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
@@ -206,7 +234,7 @@ function About() {
             </div>
          </div>
 
-         <div class="team-section card purple-scheme">
+         <div class="team-section card peach-scheme">
             <div class="team-bio">
                <img src={require("../img/chantal_headshot.jpeg")} alt="chantal headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
@@ -235,8 +263,7 @@ function About() {
             </div>
          </div>
 
-
-         <div class="team-section card peach-scheme">
+         <div class="team-section card yellow-scheme">
             <div class="team-bio">
                <img src={require("../img/karina_headshot.jpg")} alt="karina headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
@@ -265,9 +292,7 @@ function About() {
             </div>
          </div>
 
-
-
-         <div class="team-section card yellow-scheme">
+         <div class="team-section card green-scheme">
             <div class="team-bio">
                <img src={require("../img/tanya_headshot.png")} alt="tanya headshot" class="team-image" width="225px" />
                <div class="team-bio-text">
