@@ -43,6 +43,8 @@ function Sponsors(props) {
           <a class="spons-img" href="https://www.whiting-turner.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/wt-logo.png")} alt="Whiting-Turner logo" height="70px" /></a>
           <a class="spons-img" href="https://www.eaton.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/eaton-logo.png")} alt="eaton logo" height="70px" /></a>
           <a class="spons-img" href="https://www.chevron.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/chevron.png")} alt="chevron logo" width="70px" /></a>
+          <a class="spons-img" href="https://www.rtx.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/raytheon.jpg")} alt="raytheon logo" width="70px" /></a>
+          <a class="spons-img" href="https://www.pimco.com/en-us/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/pimco.jpg")} alt="pimco logo" width="70px" /></a>
           {/* <a class="spons-img" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/facebook.png")} alt="facebook logo" width="90px" /></a>  */}
           {/* <a class="spons-img" href="https://www.fmglobal.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/fmglobal.png")} alt="fmglobal logo" width="90px" /></a> */}
           {/* <a class="spons-img" href="https://www.marathonpetroleum.com/" target="_blank" rel="noopener noreferrer" ><img src={require("../img/marathon.png")} alt="marathon logo" width="90px" /></a> */}
