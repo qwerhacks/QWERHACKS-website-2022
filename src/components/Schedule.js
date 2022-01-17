@@ -1,123 +1,133 @@
 import React from "react";
 
-   function Schedule(props) {
+function Schedule(props) {
 
-        return (
-          <div class="schedule card green-scheme">
-            <h1>Schedule</h1>
-            <p>coming soon...</p>
-            {/* <ul>
-              <li class="session">
-                <div class="when"><b>10:00-11:00 AM PST, sat 1/23</b></div>
-                <div class="topic">opening presentations and keynote with anna lytical and the qwerhacks team</div>
-              </li>
-              <li class="session">
-                <div class="when"><b>11:00 AM - 12:00 PM PST, sat 1/23</b></div>
-                <div class="topic">track introductions with kelly park, chris cuellar, ariel zucker, and james coleman</div>
-              </li>  
-              <li class="session">
-                <div class="when"><b>12:00 PM PST, sat 1/23</b></div>
-                <div class="topic"><b><i>hacking begins</i></b></div>
-              </li> 
-              <li class="session">
-                <div class="when"><b>12:00-1:00 PM PST, sat 1/23</b></div>
-                <div class="topic">“team formation &amp; first hackathon tips” and "git workshop" hosted by acm-w</div>
-              </li>       
-              <li class="session">
-                <div class="when"><b>1:00-1:30 PM PST, sat 1/23</b></div>
-                <div class="topic">AT&amp;T sponsor takeover</div>
-              </li>   
-              <li class="session">
-                <div class="when"><b>1:30-2:00 PM PST, sat 1/23</b></div>
-                <div class="topic">"building ethical technology" hosted by raksha muthukumar</div>
-              </li>    
-              <li class="session">
-                <div class="when"><b>2:00-2:30 PM PST, sat 1/23</b></div>
-                <div class="topic">"hacking the system" hosted by arlyn de los santos</div>
-              </li>   
-              <li class="session">
-                <div class="when"><b>2:30-3:00 PM PST, sat 1/23</b></div>
-                <div class="topic">mentorship group meeting #1</div>
-              </li>    
-              <li class="session">
-                <div class="when"><b>3:00-3:30 PM PST, sat 1/23</b></div>
-                <div class="topic">"resume building/network workshop" hosted by moss moreland</div>
-              </li>  
-              <li class="session">
-                <div class="when"><b>3:30-4:00 PM PST, sat 1/23</b></div>
-                <div class="topic">"navigating the workplace as nonbinary" hosted by moss moreland</div>
-              </li> 
-              <li class="session">
-                <div class="when"><b>4:00-4:30 PM PST, sat 1/23</b></div>
-                <div class="topic">robinhood sponsor takeover</div>
-              </li>  
-              <li class="session">
-                <div class="when"><b>4:30-5:00 PM PST, sat 1/23</b></div>
-                <div class="topic">"reactJS workshop" hosted by acm teach la</div>
-              </li> 
-              <li class="session">
-                <div class="when"><b>5:00-5:30 PM PST, sat 1/23</b></div>
-                <div class="topic">"intro to deep learning" hosted by acm ai</div>
-              </li> 
-              <li class="session">
-                <div class="when"><b>5:30-6:00 PM PST, sat 1/23</b></div>
-                <div class="topic">xilinx sponsor takeover</div>
-              </li>  
-              <li class="session">
-                <div class="when"><b>6:00-6:30 PM PST, sat 1/23</b></div>
-                <div class="topic">"intro to design and accessibility" hosted by bruin entrepreneurs and all brains</div>
-              </li> 
-              <li class="session">
-                <div class="when"><b>6:30-7:00 PM PST, sat 1/23</b></div>
-                <div class="topic">"firebase workshop" hosted by acm teach la</div>
-              </li> 
-              <li class="session">
-                <div class="when"><b>7:00-7:30 PM PST, sat 1/23</b></div>
-                <div class="topic">"cybersecurity challenge" hosted by MLH</div>
-              </li> 
-              <li class="session">
-                <div class="when"><b>7:30-8:30 PM PST, sat 1/23</b></div>
-                <div class="topic">mentorship group meeting #2</div>
-              </li>  
-              <li class="session">
-                <div class="when"><b>8:00-8:30 PM PST, sat 1/23</b></div>
-                <div class="topic">"how to be a better ally" hosted by qtstem</div>
-              </li> 
-              <li class="session">
-                <div class="when"><b>8:30-9:00 PM PST, sat 1/23</b></div>
-                <div class="topic">"how to write a personal statement" hosted by qtstem</div>
-              </li>  
-              <li class="session">
-                <div class="when"><b>9:00-9:30 PM PST, sat 1/23</b></div>
-                <div class="topic">"bob ross MS paint night" hosted by mlh</div>
-              </li> 
-            </ul>
-            
-            <ul>
-              <li class="session">
-                <div class="when"><b>9:00-9:15 AM PST, sun 1/24</b></div>
-                <div class="topic">"pitching workshop" hosted by emily chung</div>
-              </li> 
-              <li class="session">
-                <div class="when"><b>12:00 PM PST, sun 1/24</b></div>
-                <div class="topic"><b><i>hacking ends</i></b></div>
-              </li> 
-              <li class="session">
-                <div class="when"><b>12:30-2:00 PM PST, sun 1/24</b></div>
-                <div class="topic">judging</div>
-              </li> 
-              <li class="session">
-                <div class="when"><b>12:45-1:45 PM PST, sun 1/24</b></div>
-                <div class="topic">mentorship group meeting #3</div>
-              </li> 
-              <li class="session">
-                <div class="when"><b>2:15-3:00 PM PST, sun 1/24</b></div>
-                <div class="topic">closing speaker + keynote + awards</div>
-              </li>
-            </ul> */}
-          </div>
-        );
+  return (
+    <div class="schedule card green-scheme">
+      <h1>Schedule</h1>
+      <br></br>
+      <h3><b>friday 1/21</b></h3>
+      <ul>
+        <li class="session">
+          <div class="when"><b>7:00pm-8:00pm PST</b></div>
+          <div class="topic">check-in</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>8:00pm-8:30pm PST</b></div>
+          <div class="topic">opening presentation</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>8:30pm-9:30pm PST</b></div>
+          <div class="topic">track introductions</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>9:30pm PST</b></div>
+          <div class="topic"><b><i>hacking begins</i></b></div>
+        </li>
+        <li class="session">
+          <div class="when"><b>9:30pm-10:15pm PST</b></div>
+          <div class="topic">workshop: "hackathon survival guide + team formation"</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>10:15pm-11:15pm PST</b></div>
+          <div class="topic">workshop: "git version control"</div>
+        </li>
+      </ul>
 
-    }
+      <h3><b>saturday 1/22</b></h3>
+      <ul>
+        <li class="session">
+          <div class="when"><b>9:00am-10:00am PST</b></div>
+          <div class="topic">workshop: "career fair pitching"</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>10:00am-10:30am PST</b></div>
+          <div class="topic">workshop: "building accessible products in healthcare"</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>10:30am-11:00am PST</b></div>
+          <div class="topic">robinhood virtual networking session</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>11:00am-12:00pm PST</b></div>
+          <div class="topic">career fair</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>12:00pm-12:30pm PST</b></div>
+          <div class="topic">cia workshop 1</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>12:30pm-1:00pm PST</b></div>
+          <div class="topic">cia workshop 2</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>1:00pm-2:00pm PST</b></div>
+          <div class="topic">workshop: "intro to react" </div>
+        </li>
+        <li class="session">
+          <div class="when"><b>2:00pm-2:30pm PST</b></div>
+          <div class="topic">workshop: "accidental activism in academia"</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>2:30pm-3:30pm PST</b></div>
+          <div class="topic">workshop: "intro to firebase"</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>3:30pm-4:00pm PST</b></div>
+          <div class="topic">identity specific workshop 1</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>4:00pm-5:00pm PST</b></div>
+          <div class="topic">workshop: "intro to deep learning"</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>5:30pm-6:00pm PST</b></div>
+          <div class="topic">workshop: "imposter syndrome"</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>6:00pm-6:30pm PST</b></div>
+          <div class="topic">workshop: "game prototyping"</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>6:30pm-7:00 PST</b></div>
+          <div class="topic">workshop: "how diversity improves products"</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>8:00pm-9:00pm PST</b></div>
+          <div class="topic">workshop: "Rebuilding Trust: Making Artificial Intelligence Queer-Inclusive"</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>9:00pm-10:00pm PST</b></div>
+          <div class="topic">activity: "werewolf" hosted by mlh</div>
+        </li>
+      </ul>
 
-    export default Schedule;
+      <h3><b>sunday 1/23</b></h3>
+      <ul>
+        <li class="session">
+          <div class="when"><b>9:00am PST</b></div>
+          <div class="topic"><i>devpost submission due</i></div>
+        </li>
+        <li class="session">
+          <div class="when"><b>12:00am PST</b></div>
+          <div class="topic"><b><i>hacking ends</i></b></div>
+        </li>
+        <li class="session">
+          <div class="when"><b>10:00am-11:30am PST</b></div>
+          <div class="topic">judging</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>10:00am-10:30am PST</b></div>
+          <div class="topic">identity specific workshop 2</div>
+        </li>
+        <li class="session">
+          <div class="when"><b>12:30pm-2:00pm PST</b></div>
+          <div class="topic"> closing presentation + awards</div>
+        </li>
+      </ul>
+    </div>
+  );
+
+}
+
+export default Schedule;
