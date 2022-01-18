@@ -38,7 +38,7 @@ function Schedule(props) {
       <ul>
         <li class="session">
           <div class="when"><b>9:00am-10:00am PST</b></div>
-          <div class="topic">workshop: "career fair pitching"</div>
+          <div class="topic">workshop: "p*tch workshop"</div>
         </li>
         <li class="session">
           <div class="when"><b>10:00am-10:30am PST</b></div>
@@ -109,7 +109,7 @@ function Schedule(props) {
           <div class="topic"><i>devpost submission due</i></div>
         </li>
         <li class="session">
-          <div class="when"><b>12:00am PST</b></div>
+          <div class="when"><b>9:30am PST</b></div>
           <div class="topic"><b><i>hacking ends</i></b></div>
         </li>
         <li class="session">
